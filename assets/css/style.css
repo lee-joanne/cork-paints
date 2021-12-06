@@ -1,0 +1,58 @@
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@200&display=swap');
+
+/* set default layout */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+/* body and heading */
+
+body {
+    font-family: Lora, sans-serif;
+}
+
+h1, h2 {
+    font-family: Montserrat, sans-serif;
+    color: #232222;
+}
+
+#nav .active {
+    color: #9C9C9C;
+}
+
+/* header: logo and navigation links */
+
+#logo {
+    text-transform: uppercase;
+    float: left;
+    margin-left: 20px;
+    font-size: 275%;
+    letter-spacing: 1px;
+}
+
+#nav, #logo {
+    line-height: 75px;
+}
+
+#nav {
+    font-size: 130%;
+    letter-spacing: 1px;
+}
+
+#nav li {
+    float: right;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+#nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#nav a:hover {
+    color: #9C9C9C;
+}
