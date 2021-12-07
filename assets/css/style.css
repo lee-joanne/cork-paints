@@ -33,6 +33,10 @@ h1, h2 {
     letter-spacing: 1px;
 }
 
+i {
+    color: #78748F;
+}
+
 #nav, #logo {
     line-height: 75px;
 }
