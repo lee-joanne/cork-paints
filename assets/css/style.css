@@ -20,7 +20,7 @@ h1, h2 {
 }
 
 #nav .active {
-    color: #9C9C9C;
+    color: #78748F;
 }
 
 /* header: logo and navigation links */
@@ -54,5 +54,55 @@ h1, h2 {
 }
 
 #nav a:hover {
-    color: #9C9C9C;
+    color: #78748F;
+}
+
+/* section one: hero image and text */
+
+#hero {
+    height: 750px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#hero-image {
+    background: url(../images/hero-image.jpeg) no-repeat 20% 60% / cover;
+
+    height: 750px;
+    width: 100%;
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* creates the level of zoom for hero image */
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
+#hero-text, #hero-text h2 {
+    color: #fff;
+}
+
+#hero-text {
+ 
+    width: 600px;
+    height: 100px;
+
+    background-color: rgba(120, 116, 143, 0.5);
+    top: 200px;
+    left: 33%;
+    text-align: center;
+    padding: 20px;
+
+    position: absolute;
 }
