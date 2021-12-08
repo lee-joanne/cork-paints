@@ -64,7 +64,7 @@ i {
 /* section one: hero image and text */
 
 #hero {
-    height: 600px;
+    height: 650px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -73,7 +73,7 @@ i {
 #hero-image {
     background: url(../images/hero-image.jpeg) no-repeat 20% 60% / cover;
 
-    height: 600px;
+    height: 650px;
     width: 100%;
 
     animation-name: hero-zoom;
