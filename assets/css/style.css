@@ -61,7 +61,7 @@ i {
     color: #78748F;
 }
 
-/* section one: hero image and text */
+/* section one: hero image and hero text */
 
 #hero {
     height: 650px;
@@ -119,4 +119,10 @@ i {
 
 #hero-text h3 {
     font-size: 1.5rem;
+}
+
+/* section two: about */
+
+#about {
+    padding: 50px;
 }
