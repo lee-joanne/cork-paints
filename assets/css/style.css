@@ -42,7 +42,7 @@ i {
 }
 
 #nav {
-    font-size: 130%;
+    font-size: 110%;
     letter-spacing: 1px;
 }
 
@@ -64,18 +64,16 @@ i {
 /* section one: hero image and text */
 
 #hero {
-    height: 750px;
+    height: 600px;
     width: 100%;
     overflow: hidden;
     position: relative;
-    display: flex;
-    justify-content: center;
 }
 
 #hero-image {
     background: url(../images/hero-image.jpeg) no-repeat 20% 60% / cover;
 
-    height: 750px;
+    height: 600px;
     width: 100%;
 
     animation-name: hero-zoom;
@@ -105,6 +103,10 @@ i {
     top: 175px;
 
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+
 }
 
 #hero-text, #hero-text h2 {
