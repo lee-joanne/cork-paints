@@ -95,12 +95,10 @@ i {
 #hero-text {
  
     width: 900px;
-    height: 130px;
 
     background-color: rgba(120, 116, 143, 0.5);
     text-align: center;
-    padding: 20px;
-    top: 175px;
+    padding: 50px;
 
     position: absolute;
     top: 50%;
@@ -124,5 +122,44 @@ i {
 /* section two: about */
 
 #about {
-    padding: 50px;
+    padding: 0px 125px;
+    margin: 75px;
+}
+
+#about-text {
+    height: 375px;
+    width: 450px;
+    float: left;
+    padding: 25px 0;
+}
+
+#about-image {
+    float: right;
+}
+
+#about-text h3 {
+    font-size: 2.25rem;
+}
+
+#about-text p {
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+.about-photo {
+    height: 375px;
+    width: 375px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+#temp-clear {
+    clear: both;
 }
