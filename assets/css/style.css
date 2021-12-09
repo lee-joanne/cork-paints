@@ -124,13 +124,13 @@ i {
 #about {
     padding: 0px 50px;
     margin: 100px;
+    height: 450px;
 }
 
 #about-text {
     height: 375px;
     width: 450px;
     float: left;
-    padding: 25px 0;
 }
 
 #about-image {
@@ -156,7 +156,13 @@ i {
 /* testimonial section */
 
 #testimonials {
+    background-image: url("../images/testimonial-photo.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     overflow: hidden;
+    height: 650px;
+    width: 100%;
 }
 
 
