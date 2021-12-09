@@ -122,14 +122,23 @@ i {
 /* about section */
 
 #about {
-    padding: 0px 50px;
-    margin: 100px;
-    height: 450px;
+    height: 650px;
+    position: relative;
+    width: 100%;
+}
+
+#about-contents {
+    position: absolute;
+    
+    width: 75%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #about-text {
-    height: 375px;
     width: 450px;
+    height: 375px;
     float: left;
 }
 
@@ -163,6 +172,7 @@ i {
     overflow: hidden;
     height: 650px;
     width: 100%;
+    margin: 0;
 }
 
 
