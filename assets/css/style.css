@@ -19,7 +19,7 @@ h1, h2 {
     color: #232222;
 }
 
-#nav .active {
+.nav .active {
     color: #78748F;
 }
 
@@ -167,11 +167,8 @@ i {
 /* testimonial section */
 
 #testimonials {
-    background-image: url("../images/testimonial-photo.jpeg") no-repeat center / cover;
     overflow: hidden;
-    height: 650px;
-    width: 100%;
-    margin: 0;
+
 }
 
 
