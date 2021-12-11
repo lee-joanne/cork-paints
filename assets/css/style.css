@@ -25,7 +25,7 @@ h1, h2 {
 
 /* header and navigation links */
 
-#logo {
+.logo {
     text-transform: uppercase;
     float: left;
     margin-left: 20px;
@@ -37,27 +37,27 @@ i {
     color: #78748F;
 }
 
-#nav, #logo {
+.nav, .logo {
     line-height: 75px;
 }
 
-#nav {
+.nav {
     font-size: 110%;
     letter-spacing: 1px;
 }
 
-#nav li {
+.nav li {
     float: right;
     list-style-type: none;
     margin-right: 20px;
 }
 
-#nav a {
+.nav a {
     text-decoration: none;
     color: inherit;
 }
 
-#nav a:hover {
+.nav a:hover {
     color: #78748F;
 }
 
@@ -70,7 +70,7 @@ i {
     position: relative;
 }
 
-#hero-image {
+.hero-image {
     background: url(../images/hero-image.jpeg) no-repeat 20% 60% / cover;
 
     height: 650px;
@@ -92,7 +92,7 @@ i {
     }
 }
 
-#hero-text {
+.hero-text {
  
     width: 900px;
 
@@ -107,15 +107,15 @@ i {
 
 }
 
-#hero-text, #hero-text h2 {
+.hero-text, .hero-text h2 {
     color: #fff;
 }
 
-#hero-text h2 {
+.hero-text h2 {
     font-size: 2.75rem;
 }
 
-#hero-text h3 {
+.hero-text h3 {
     font-size: 1.4rem;
 }
 
@@ -127,31 +127,33 @@ i {
     width: 100%;
 }
 
-#about-contents {
+.about-contents {
     position: absolute;
-    
     width: 75%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-#about-text {
+.about-text {
     width: 450px;
     height: 375px;
     float: left;
+    display: flex;
+    justify-content: left;
+    align-items: center;
 }
 
-#about-image {
+.about-image {
     float: right;
 }
 
-#about-text h3 {
+.about-text h3 {
     font-size: 2.25rem;
     color: #78748F;
 }
 
-#about-text p {
+.about-text p {
     line-height: 1.6;
     font-size: 1.1rem;
 }
@@ -165,10 +167,7 @@ i {
 /* testimonial section */
 
 #testimonials {
-    background-image: url("../images/testimonial-photo.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-image: url("../images/testimonial-photo.jpeg") no-repeat center / cover;
     overflow: hidden;
     height: 650px;
     width: 100%;
