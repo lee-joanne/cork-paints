@@ -1,5 +1,7 @@
 # <p align="center">Cork Paints Website</p>
 
+[View Live Project Here](https://lee-joanne.github.io/cork-paints/)
+
 ## User Experience (UX)
 
 * ### User Stories
