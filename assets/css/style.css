@@ -96,7 +96,7 @@ i {
  
     width: 900px;
 
-    background-color: rgba(120, 116, 143, 0.5);
+    background-color: rgba(120, 116, 143, 0.7);
     text-align: center;
     padding: 50px;
 
@@ -168,8 +168,43 @@ i {
 /* testimonial section */
 
 #testimonials {
+    height: 650px;
+    width: 100%;
     overflow: hidden;
+    position: relative;
+}
 
+.testimonials-image {
+    background: url(../images/testimonials-image.jpeg) no-repeat center / cover;
+    height: 650px;
+    width: 100%;
+}
+
+.testimonial-one {
+    height: 500px;
+    width: 33%;
+    background-color: rgba(120, 116, 143, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.testimonial-two {
+    height: 500px;
+    width: 33%;
+    background-color: rgba(120, 116, 143, 0.7);
+    position: absolute;
+    top: 0;
+    left: 300px;
+}
+
+.testimonial-three {
+    height: 500px;
+    width: 33%;
+    background-color: rgba(120, 116, 143, 0.7);
+    position: absolute;
+    top: 0;
+    left: 500px;
 }
 
 
