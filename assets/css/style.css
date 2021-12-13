@@ -165,46 +165,44 @@ i {
     border-radius: 50%;
 }
 
-/* testimonial section */
+/* review section */
 
-#testimonials {
+#reviews {
     height: 650px;
     width: 100%;
     overflow: hidden;
+}
+
+.reviews-image {
+    background: url(../images/review-photo.jpeg) no-repeat center / cover;
+    background-color: rgba(120, 116, 143, 0.7);
+    height: 650px;
+    width: 100%;
     position: relative;
 }
 
-.testimonials-image {
-    background: url(../images/testimonials-image.jpeg) no-repeat center / cover;
+.choose-us {
     height: 650px;
     width: 100%;
-}
-
-.testimonial-one {
-    height: 500px;
-    width: 33%;
     background-color: rgba(120, 116, 143, 0.7);
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.testimonial-two {
-    height: 500px;
-    width: 33%;
-    background-color: rgba(120, 116, 143, 0.7);
-    position: absolute;
-    top: 0;
-    left: 300px;
+.trip-advisor {
+    height: 400px;
+    width: 400px;
 }
 
-.testimonial-three {
-    height: 500px;
-    width: 33%;
-    background-color: rgba(120, 116, 143, 0.7);
-    position: absolute;
-    top: 0;
-    left: 500px;
+.choose-us p {
+    color: #fff;
+    width: 50%;
+    font-style: italic;
+    text-align: center;
+    line-height: 1.6;
+    font-size: 1.1rem;
 }
 
 
