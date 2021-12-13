@@ -171,41 +171,46 @@ i {
     height: 650px;
     width: 100%;
     overflow: hidden;
+    position: relative;
 }
 
 .reviews-image {
     background: url(../images/review-photo.jpeg) no-repeat center / cover;
-    background-color: rgba(120, 116, 143, 0.7);
     height: 650px;
     width: 100%;
-    position: relative;
 }
 
-.choose-us {
-    height: 650px;
-    width: 100%;
-    background-color: rgba(120, 116, 143, 0.7);
+.review-container {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    display: flex;
 }
 
-.trip-advisor {
-    height: 400px;
-    width: 400px;
-}
-
-.choose-us p {
+.review-container p {
     color: #fff;
-    width: 50%;
-    font-style: italic;
     text-align: center;
+    font-style: italic;
     line-height: 1.6;
     font-size: 1.1rem;
 }
 
+.review-style {
+    background-color:rgba(120, 116, 143, 0.7);
+    text-align: center;
+    height: 350px;
+    width: 33%;
+    padding: 25px;
+    margin: 25px;
+}
 
+.review-container i {
+    color: gold;
+}
+
+.customer-heads {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+}
 
 
 
