@@ -226,13 +226,15 @@ i {
     object-fit: cover;
 }
 
-/* location */
+/* footer */
+
+footer {
+    height: 100px;
+}
 
 .location {
-    width: 75%;
+    width: 75%%;
     height: 350px;
-    background-color: #78748F;
-    margin: 75px auto 0;
 }
 
 iframe {
@@ -242,9 +244,10 @@ iframe {
 }
 
 .location-card {
-    color:#fff;
+    color: #232222;
     text-align: center;
     float: left;
+    margin: 0 auto;
 }
 
 .table-card {
@@ -260,15 +263,6 @@ p {
     padding: 5px;
 }
 
-/* Ask Narender about centering contents within this div */
-
-
-/* footer */
-
-footer {
-    height: 100px;
-}
-
 .social-media {
     text-align: center;
 }
@@ -278,9 +272,9 @@ footer {
 }
 
 .social-media i {
-    font-size: 175%;
-    padding: 5%;
-    margin: 25px;
+    font-size: 200%;
+    padding: 20px;
+    margin: 15px;
     color: #232222;
 }
 
