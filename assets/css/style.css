@@ -205,12 +205,13 @@ i {
 .review-style {
     background-color:rgba(120, 116, 143, 0.7);
     height: 350px;
-    padding: 25px;
-    margin: 25px;
+    padding: 30px;
+    margin: 50px;
     width: 25%;
     text-align: center;
     display: inline-flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .review-container i {
