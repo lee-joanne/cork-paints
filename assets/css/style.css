@@ -178,20 +178,20 @@ i {
     height: 650px;
     width: 100%;
     text-align: center;
+    display: inline-flex;
+    align-items: center;
+    align-content: center;
 }
 
 .review-one {
-    width: 33%;
     float: left;
 }
 
 .review-two {
-    width: 33%;
     margin: 0 auto;
 }
 
 .review-three {
-    width: 33%;
     float: right;
 }
 
@@ -205,11 +205,15 @@ i {
 .review-style {
     background-color:rgba(120, 116, 143, 0.7);
     height: 350px;
+    padding: 25px;
+    margin: 25px;
+    width: 25%;
 }
 
 .review-container i {
     color: gold;
 }
+
 
 .customer-heads {
     height: 75px;
