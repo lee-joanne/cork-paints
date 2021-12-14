@@ -229,21 +229,22 @@ i {
 /* location */
 
 .location {
-    width: 100%;
+    width: 75%;
+    height: 350px;
+    background-color: #78748F;
+    margin: 75px auto 0;
 }
 
 iframe {
-    width: 100%;
-    height: 300px;
+    width: 50%;
+    height: 350px;
+    float: right;
 }
 
 .location-card {
-    width: 75%;
-    height: 300px;
-    background-color:#78748F;
-    margin: 75px auto;
     color:#fff;
     text-align: center;
+    float: left;
 }
 
 .table-card {
