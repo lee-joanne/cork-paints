@@ -208,6 +208,9 @@ i {
     padding: 25px;
     margin: 25px;
     width: 25%;
+    text-align: center;
+    display: inline-flex;
+    flex-wrap: wrap;
 }
 
 .review-container i {
