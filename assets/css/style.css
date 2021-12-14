@@ -226,28 +226,24 @@ i {
     object-fit: cover;
 }
 
-/* footer */
-
-footer {
-    height: 100px;
-}
+/* location */
 
 .location {
-    width: 75%%;
-    height: 350px;
+    width: 100%;
 }
 
 iframe {
-    width: 50%;
-    height: 350px;
-    float: right;
+    width: 100%;
+    height: 300px;
 }
 
 .location-card {
-    color: #232222;
+    width: 75%;
+    height: 300px;
+    background-color:#78748F;
+    margin: 75px auto;
+    color:#fff;
     text-align: center;
-    float: left;
-    margin: 0 auto;
 }
 
 .table-card {
@@ -263,6 +259,15 @@ p {
     padding: 5px;
 }
 
+/* Ask Narender about centering contents within this div */
+
+
+/* footer */
+
+footer {
+    height: 100px;
+}
+
 .social-media {
     text-align: center;
 }
@@ -272,14 +277,13 @@ p {
 }
 
 .social-media i {
-    font-size: 200%;
-    padding: 20px;
-    margin: 15px;
+    font-size: 175%;
+    padding: 5%;
+    margin: 25px;
     color: #232222;
 }
 
 .social-media i:hover {
     color: #78748F;
 }
-
 
