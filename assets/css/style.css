@@ -229,7 +229,6 @@ i {
 /* location */
 
 .location {
-    height: 500px;
     width: 100%;
 }
 
@@ -238,19 +237,11 @@ iframe {
     height: 300px;
 }
 
-.iframe-card {
-    width: 33%;
-    margin: 75px;
-    float: right;
-
-}
-
 .location-card {
-    width: 33%;
+    width: 75%;
     height: 300px;
-    float: left;
     background-color:#78748F;
-    margin: 75px;
+    margin: 75px auto;
     color:#fff;
     text-align: center;
 }
@@ -268,9 +259,32 @@ p {
     padding: 5px;
 }
 
+/* Ask Narender about centering contents within this div */
 
 
+/* footer */
 
-#temp-clear {
-    clear: both;
+footer {
+    height: 100px;
 }
+
+.social-media {
+    text-align: center;
+}
+
+.social-media > li {
+    display: inline;
+}
+
+.social-media i {
+    font-size: 175%;
+    padding: 5%;
+    margin: 25px;
+    color: #232222;
+}
+
+.social-media i:hover {
+    color: #78748F;
+}
+
+
