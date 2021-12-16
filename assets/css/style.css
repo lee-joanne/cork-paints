@@ -117,11 +117,11 @@ i {
 }
 
 .hero-text h2 {
-    font-size: 2.75rem;
+    font-size: 44px;
 }
 
 .hero-text h3 {
-    font-size: 1.4rem;
+    font-size: 22.5px;
 }
 
 /* about section */
@@ -155,13 +155,13 @@ i {
 }
 
 .about-text h3 {
-    font-size: 2.25rem;
+    font-size: 36px;
     color: #78748F;
 }
 
 .about-text p {
     line-height: 1.6;
-    font-size: 1.1rem;
+    font-size: 17px;
 }
 
 .about-photo {
@@ -204,7 +204,7 @@ i {
     color: #fff;
     font-style: italic;
     line-height: 1.6;
-    font-size: 1.1rem;
+    font-size: 17px;
 }
 
 .review-style {
@@ -222,7 +222,6 @@ i {
 .review-container i {
     color: gold;
 }
-
 
 .customer-heads {
     height: 75px;
@@ -243,8 +242,8 @@ iframe {
 }
 
 .location-card {
-    width: 75%;
-    height: 300px;
+    width: 65%;
+    height: 325px;
     background-color:#78748F;
     margin: 75px auto;
     color:#fff;
@@ -255,21 +254,17 @@ iframe {
     flex-direction: column;
 }
 
-/*
 .location-card > h3 {
-    font-size: 18px;
+    font-size: 22.5px;
 }
 
 .location-card > p {
-    font-size: 16px;
-*/
+    font-size: 17px;
+    padding: 5px;
+}
 
 .table-card {
     margin: 0 auto;
-}
-
-.location-card p {
-    padding: 5px;
 }
 
 /* footer */
@@ -398,6 +393,7 @@ footer {
 
     }
 
+}
 
 
 /*
