@@ -250,16 +250,20 @@ iframe {
     text-align: center;
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
 .location-column {
-display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.location-card i {
+    color: #fff;
+    font-size: 22.5px;
 }
 
 .location-card > h3 {
