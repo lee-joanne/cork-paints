@@ -242,7 +242,7 @@ iframe {
 }
 
 .location-card {
-    width: 65%;
+    width: 75%;
     height: 300px;
     background-color:#78748F;
     margin: 75px auto;
@@ -389,11 +389,16 @@ footer {
         font-size: 16px;
     }
 
+    .location-card i {
+        color: #fff;
+        font-size: 18px;
+    }
+
 }
 
-/* for media screens 750px wide and down (index.html page) */
+/* for media screens 840px wide and down (index.html page) */
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 840px) {
 
 
 
