@@ -21,7 +21,7 @@ h1, h2 {
 
 th, td {
     padding: 5px 25px;
-    text-align: left;
+    text-align: center;
 }
 
 .nav .active {
@@ -243,7 +243,7 @@ iframe {
 
 .location-card {
     width: 65%;
-    height: 400px;
+    height: 300px;
     background-color:#78748F;
     margin: 75px auto;
     color:#fff;
@@ -251,7 +251,15 @@ iframe {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.location-column {
+display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
 }
 
 .location-card > h3 {
