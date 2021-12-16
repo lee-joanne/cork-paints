@@ -255,6 +255,15 @@ iframe {
     flex-direction: column;
 }
 
+/*
+.location-card > h3 {
+    font-size: 18px;
+}
+
+.location-card > p {
+    font-size: 16px;
+*/
+
 .table-card {
     margin: 0 auto;
 }
@@ -364,13 +373,34 @@ footer {
         width: 33%;
     }
 
-/*
+/* location */
 
-.customer-heads {
-    height: 75px;
-    width: 75px;
-    border-radius: 50%;
-    object-fit: cover;
+    .location-card > h3 {
+        font-size: 18px;
+    }
+
+    .location-card > p {
+        font-size: 16px;
+    }
+
+}
+
+/* for media screens 750px wide and down (index.html page) */
+
+@media screen and (max-width: 750px) {
+
+
+/* review section */
+
+    .review.container {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+
+/*
 
 .reviews {
     height: 650px;
@@ -388,6 +418,24 @@ footer {
     align-content: center;
 }
 
+.review-one {
+    float: left;
+}
+
+.review-two {
+    margin: 0 auto;
+}
+
+.review-three {
+    float: right;
+}
+
+.review-container p {
+    color: #fff;
+    font-style: italic;
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
 
 .review-style {
     background-color:rgba(120, 116, 143, 0.7);
@@ -401,5 +449,35 @@ footer {
     justify-content: center;
 }
 
+.review-container i {
+    color: gold;
+}
 
+
+.customer-heads {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+
+    .reviews {
+        height: 500px;
+    }
+
+    .review-container {
+        height: 500px;
+    }
+
+    .review-container p {
+        font-size: 16px;
+    }
+
+    .review-style {
+        padding: 20px;
+        margin: 5% 1%;
+        width: 33%;
+    }
 
