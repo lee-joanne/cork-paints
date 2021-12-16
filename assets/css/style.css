@@ -294,7 +294,11 @@ footer {
 
 @media screen and (max-width: 1100px) {
 
-    /* hero image and hero text */
+/* hero image and hero text */
+
+    .hero {
+        height: 450px;
+    }
 
     .hero-text {
         padding: 25px;
@@ -308,7 +312,7 @@ footer {
         font-size: 18px;
     }
 
-    /* about */
+/* about */
 
     .about {
         height: 500px;
@@ -340,51 +344,62 @@ footer {
         flex-wrap: wrap;
     }
 
+/* review section */
 
-    
-}
+    .reviews {
+        height: 500px;
+    }
 
-/* 
-.about {
-    height: 650px;
-    position: relative;
-    width: 100%;
-}
+    .review-container {
+        height: 500px;
+    }
 
-.about-contents {
-    position: absolute;
-    width: 75%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+    .review-container p {
+        font-size: 16px;
+    }
 
-.about-text {
-    width: 450px;
-    height: 375px;
-    float: left;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    flex-wrap: wrap;
-}
+    .review-style {
+        padding: 20px;
+        margin: 5% 1%;
+        width: 33%;
+    }
 
-.about-image {
-    float: right;
-}
+/*
 
-.about-text h3 {
-    font-size: 2.25rem;
-    color: #78748F;
-}
-
-.about-text p {
-    line-height: 1.6;
-    font-size: 1.1rem;
-}
-
-.about-photo {
-    height: 375px;
-    width: 375px;
+.customer-heads {
+    height: 75px;
+    width: 75px;
     border-radius: 50%;
+    object-fit: cover;
+
+.reviews {
+    height: 650px;
+    width: 100%;
+    overflow: hidden;
 }
+
+.review-container {
+    background: url(../images/review-photo.jpeg) no-repeat center / cover;
+    height: 650px;
+    width: 100%;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    align-content: center;
+}
+
+
+.review-style {
+    background-color:rgba(120, 116, 143, 0.7);
+    height: 350px;
+    padding: 30px;
+    margin: 50px;
+    width: 25%;
+    text-align: center;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
