@@ -292,7 +292,7 @@ footer {
     color: #78748F;
 }
 
-/* Media Queries */
+/* media queries */
 
 /* for media screens 1100px wide and down (index.html page) */
 
@@ -329,7 +329,7 @@ footer {
     }
 
     .about-text h3 {
-        font-size: 18px;
+        font-size: 24px;
     }
 
     .about-text p {
@@ -385,95 +385,5 @@ footer {
 @media screen and (max-width: 750px) {
 
 
-/* review section */
-
-    .review.container {
-        display: flex;
-        flex-direction: column;
-
-    }
 
 }
-
-
-/*
-
-.reviews {
-    height: 650px;
-    width: 100%;
-    overflow: hidden;
-}
-
-.review-container {
-    background: url(../images/review-photo.jpeg) no-repeat center / cover;
-    height: 650px;
-    width: 100%;
-    text-align: center;
-    display: inline-flex;
-    align-items: center;
-    align-content: center;
-}
-
-.review-one {
-    float: left;
-}
-
-.review-two {
-    margin: 0 auto;
-}
-
-.review-three {
-    float: right;
-}
-
-.review-container p {
-    color: #fff;
-    font-style: italic;
-    line-height: 1.6;
-    font-size: 1.1rem;
-}
-
-.review-style {
-    background-color:rgba(120, 116, 143, 0.7);
-    height: 350px;
-    padding: 30px;
-    margin: 50px;
-    width: 25%;
-    text-align: center;
-    display: inline-flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.review-container i {
-    color: gold;
-}
-
-
-.customer-heads {
-    height: 75px;
-    width: 75px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-
-
-    .reviews {
-        height: 500px;
-    }
-
-    .review-container {
-        height: 500px;
-    }
-
-    .review-container p {
-        font-size: 16px;
-    }
-
-    .review-style {
-        padding: 20px;
-        margin: 5% 1%;
-        width: 33%;
-    }
-
