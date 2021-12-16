@@ -209,10 +209,10 @@ i {
 
 .review-style {
     background-color:rgba(120, 116, 143, 0.7);
-    height: 350px;
-    padding: 30px;
-    margin: 50px;
-    width: 25%;
+    height: 400px;
+    width: 33%;
+    padding: 35px;
+    margin: 2.5%;
     text-align: center;
     display: inline-flex;
     flex-wrap: wrap;
@@ -243,7 +243,7 @@ iframe {
 
 .location-card {
     width: 65%;
-    height: 325px;
+    height: 400px;
     background-color:#78748F;
     margin: 75px auto;
     color:#fff;
@@ -365,7 +365,6 @@ footer {
     .review-style {
         padding: 20px;
         margin: 5% 1%;
-        width: 33%;
     }
 
 /* location */
