@@ -28,6 +28,8 @@ th, td {
     color: #78748F;
 }
 
+
+
 /* header and navigation links */
 
 .logo {
@@ -38,33 +40,49 @@ th, td {
     letter-spacing: 1px;
 }
 
-i {
-    color: #78748F;
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.nav, .logo {
+.logo {
     line-height: 75px;
 }
 
-.nav {
-    font-size: 110%;
-    letter-spacing: 1px;
-}
-
-.nav li {
-    float: right;
-    list-style-type: none;
-    margin-right: 20px;
-}
-
-.nav a {
-    text-decoration: none;
-    color: inherit;
-}
-
-.nav a:hover {
+.logo i {
     color: #78748F;
 }
+
+.navbar {
+    line-height: 75px;
+    font-size: 110%;
+    letter-spacing: 1px;
+  }
+  
+  .nav-item {
+    padding: 0 18px;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: inherit;
+  }
+
+
+
+/*
+
+            .nav a {
+                text-decoration: none;
+                color: inherit;
+            }
+
+            .nav a:hover {
+                color: #78748F;
+            }
+
+            */
 
 /* hero image and text section */
 
