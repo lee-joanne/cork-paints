@@ -28,8 +28,6 @@ th, td {
     color: #78748F;
 }
 
-
-
 /* header and navigation links */
 
 .logo {
@@ -55,7 +53,6 @@ th, td {
 }
 
 .navbar {
-    line-height: 75px;
     font-size: 110%;
     letter-spacing: 1px;
   }
@@ -69,20 +66,13 @@ th, td {
     font-family: inherit;
   }
 
+  nav .navbar-nav li a {
+      color: inherit !important;
+  }
 
-
-/*
-
-            .nav a {
-                text-decoration: none;
-                color: inherit;
-            }
-
-            .nav a:hover {
-                color: #78748F;
-            }
-
-            */
+  nav .navbar-nav li a:hover {
+    color: #78748F !important;
+    }
 
 /* hero image and text section */
 
