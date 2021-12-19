@@ -407,6 +407,26 @@ footer {
 
 @media screen and (max-width: 840px) {
 
+    /* header and navigation links */
+    .logo {
+        font-size: 200%;
+    }
+
+    /* hero image and text section */
+    .hero-image {
+        background: url(../images/hero-image.jpeg) no-repeat contain;
+    }
+
+    .hero-text h2 {
+        font-size: 28px;
+    }
+
+    .hero-text h3 {
+        font-size: 16px;
+    }
+
+
+
 
 
 }
