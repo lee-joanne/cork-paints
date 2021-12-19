@@ -37,6 +37,10 @@ footer {
     color: #78748F;
 }
 
+ul, ol {
+    padding: 0;
+}
+
 /* header and navigation links */
 
 .logo {
@@ -466,6 +470,10 @@ footer {
         font-size: 16px;
     }
 
+/* footer */
+    .social-media i {
+        padding: 10%;
+        margin: 2%;
 }
 
 /* for media screens 375px wide and down (index.html page) */
