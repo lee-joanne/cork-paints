@@ -12,6 +12,7 @@
 
 body {
     font-family: Lora, sans-serif;
+    color: #232222
 }
 
 h1, h2 {
@@ -182,6 +183,7 @@ ul, ol {
 .about-text p {
     line-height: 1.6;
     font-size: 17px;
+    color: #232222;
 }
 
 .about-photo {
@@ -315,7 +317,7 @@ ul, ol {
 
 /* courses html page */
 
-.course-section h1, h3, h3, p {
+.course-section h1, h3, h3, h4, p {
     color:#fff;
 }
 
@@ -324,27 +326,31 @@ ul, ol {
 }
 
 .courses-text {
-    width: 75%;
+    width: 100%;
     background-color: rgba(120, 116, 143, 0.7);
     text-align: center;
     padding: 50px;
-    margin: 25px auto;
 }
 
 .courses-container {
     background: url(../images/courses-image.jpeg) no-repeat center / cover;
-    height: 1500px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .course-card {
     background-color: rgba(120, 116, 143, 0.7);
     height: 450px;
-    width: 25%;
+    width: 400px;
     margin: 25px;
     padding: 16px;
     text-align: center;
     float: left;
+    border-radius: 10%;
 }
+
+
 
 
 /* media queries */
