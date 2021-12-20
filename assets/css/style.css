@@ -315,40 +315,31 @@ ul, ol {
 
 /* courses html page */
 
-.courses-background {
-    background: url(../images/courses-image.jpeg) no-repeat center / cover;
-    height: 1000px;
+.course-section h1, h3 {
+    color:#fff
 }
 
-.courses-container {
-    position: relative;
-    height: 350px;
+.course-section h3 {
+    font-size: 20px;
 }
 
 .courses-text {
     width: 75%;
-
     background-color: rgba(120, 116, 143, 0.7);
     text-align: center;
     padding: 50px;
-    position: absolute;
-    top: 50px;
-    left: 50%;
-    transform: translate(-50%);
+    margin: 0 auto 25px;
 }
 
-.courses-text h1, h3 {
-    color:#fff
-}
-
-.courses-text h3 {
-    font-size: 20px;
+.courses-container {
+    background: url(../images/courses-image.jpeg) no-repeat center / cover;
+    height: 1500px;
 }
 
 .course-card {
     background-color: rgba(120, 116, 143, 0.7);
     height: 450px;
-    width: 300px;
+    width: 25%;
     margin: 25px;
     padding: 16px;
     text-align: center;
