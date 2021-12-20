@@ -328,8 +328,8 @@ ul, ol {
 .courses-text {
     width: 100%;
     background-color: rgba(120, 116, 143);
-    text-align: center;
     padding: 15px;
+    text-align: center;
 }
 
 .courses-container {
@@ -346,10 +346,16 @@ ul, ol {
     height: 450px;
     width: 350px;
     margin: 25px;
-    padding: 16px;
     text-align: center;
     float: left;
     border-radius: 15%;
+}
+
+.courses-container img {
+    margin: 0 auto;
+    height: 200px;
+    width: 350px;
+    border-radius: 15% 15% 0 0;
 }
 
 
