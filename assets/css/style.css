@@ -315,8 +315,8 @@ ul, ol {
 
 /* courses html page */
 
-.course-section h1, h3 {
-    color:#fff
+.course-section h1, h3, h3, p {
+    color:#fff;
 }
 
 .course-section h3 {
@@ -328,7 +328,7 @@ ul, ol {
     background-color: rgba(120, 116, 143, 0.7);
     text-align: center;
     padding: 50px;
-    margin: 0 auto 25px;
+    margin: 25px auto;
 }
 
 .courses-container {
