@@ -317,8 +317,12 @@ ul, ol {
 
 /* courses html page */
 
-.course-section h1, h3, h3, h4, p {
+.course-section h1, h3, h3, h4, h5, p {
     color:#fff;
+}
+
+.course-section h1 {
+    text-align: center;
 }
 
 .course-section h3 {
@@ -351,8 +355,12 @@ ul, ol {
     border-radius: 15%;
 }
 
+.course-card br {
+    width: 100%;
+}
+
 .courses-container img {
-    margin: 0 auto;
+    margin: 0 auto 2%;
     height: 200px;
     width: 350px;
     border-radius: 15% 15% 0 0;
