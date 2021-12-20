@@ -353,17 +353,13 @@ ul, ol {
     text-align: center;
     float: left;
     border-radius: 10%;
-}
-
-.course-card br {
-    width: 100%;
+    overflow: hidden;
 }
 
 .courses-container img {
     margin: 0 auto 3%;
     height: 200px;
-    width: 375px;
-    border-radius: 10% 10% 0 0;
+    width: 100%;
 }
 
 
