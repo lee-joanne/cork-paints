@@ -349,7 +349,7 @@ ul, ol {
     background-color: rgba(120, 116, 143, 0.7);
     height: 475px;
     width: 375px;
-    margin: 25px;
+    margin: 20px;
     text-align: center;
     float: left;
     border-radius: 10%;
@@ -364,16 +364,6 @@ ul, ol {
 
 
 /* media queries */
-
-/* for media screens 1330px wide and down (courses.html page) */
-
-@media screen and (max-width: 1330px) {
-    .courses-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-}
 
 /* for media screens 1100px wide and down (index.html page) */
 
