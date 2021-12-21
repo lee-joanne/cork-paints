@@ -537,7 +537,7 @@ ul, ol {
 
     .logo {
         font-size: 120%;
-        margin: auto auto auto 6px;
+        margin: auto auto auto 7px;
     }
 
     .navbar-nav, .nav-link {
@@ -554,7 +554,6 @@ ul, ol {
 
     .logo {
         font-size: 100%;
-        margin: auto auto auto 6px;
     }
 
 /* about section */
