@@ -401,6 +401,7 @@ ul, ol {
 
     .about-text h3 {
         font-size: 24px;
+        margin: 3% auto;
     }
 
     .about-text p {
