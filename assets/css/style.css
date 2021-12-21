@@ -317,6 +317,11 @@ nav .navbar-nav li a:hover {
 
 /* courses html page */
 
+.course-section {
+    background: url(../images/courses-image.jpeg) no-repeat center / cover;
+    width: 100%;
+}
+
 .course-section h1, h3, h3, h4, h5, p {
     color:#fff;
 }
@@ -337,8 +342,6 @@ nav .navbar-nav li a:hover {
 }
 
 .courses-container {
-    background: url(../images/courses-image.jpeg) no-repeat center / cover;
-    width: 100%;
     padding: 2%;
     display: flex;
     justify-content: space-around;
@@ -349,7 +352,7 @@ nav .navbar-nav li a:hover {
 .course-card {
     background-color: rgba(120, 116, 143, 0.7);
     height: 475px;
-    width: 375px;
+    width: 380px;
     margin: 20px;
     text-align: center;
     float: left;
