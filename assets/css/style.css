@@ -343,6 +343,7 @@ ul, ol {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+
 }
 
 .course-card {
@@ -453,6 +454,7 @@ ul, ol {
 @media screen and (max-width: 840px) {
 
 /* header and navigation links */
+
     .logo {
         font-size: 200%;
     }
@@ -527,13 +529,32 @@ ul, ol {
         margin: 2%;
 }
 
+/* for media screens 490px wide and down (index.html page) */
+
+@media screen and (max-width: 490px) {
+
+/* header and navigation links */
+
+    .logo {
+        font-size: 120%;
+        margin: auto auto auto 6px;
+    }
+
+    .navbar-nav, .nav-link {
+        font-size: 12px;
+    }
+
+}
+
 /* for media screens 375px wide and down (index.html page) */
 
 @media screen and (max-width: 375px) {
 
 /* header and navigation links */
+
     .logo {
-        font-size: 150%;
+        font-size: 100%;
+        margin: auto auto auto 6px;
     }
 
 /* about section */
