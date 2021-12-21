@@ -546,6 +546,14 @@ nav .navbar-nav li a:hover {
         font-size: 12px;
     }
 
+/* location */
+
+    .location-card {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
 /* courses.html page */
 
     .course-card {
