@@ -23,6 +23,7 @@ h1, h2 {
 th, td {
     padding: 5px 25px;
     text-align: center;
+    font-size: 17px;
 }
 
 iframe {
@@ -396,6 +397,10 @@ nav .navbar-nav li a:hover {
         font-size: 16px;
     }
 
+    th, td {
+        font-size: 16px;
+    }
+
 /* hero image and hero text */
 
     .hero {
@@ -456,6 +461,10 @@ nav .navbar-nav li a:hover {
     }
 
     p {
+        font-size: 14px;
+    }
+    
+    th, td {
         font-size: 14px;
     }
 
@@ -531,10 +540,6 @@ nav .navbar-nav li a:hover {
         font-size: 16px;
     }
 
-    p {
-        font-size: 14px;
-    }
-
 /* header and navigation links */
 
     .logo {
@@ -552,6 +557,7 @@ nav .navbar-nav li a:hover {
         display: flex;
         flex-direction: column;
         text-align: center;
+        padding-top: 4%;
     }
 
 /* courses.html page */
