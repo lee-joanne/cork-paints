@@ -12,12 +12,12 @@
 
 body {
     font-family: Lora, sans-serif;
-    color: #232222;
+    color: #fff;
 }
 
 h1, h2 {
     font-family: Montserrat, sans-serif;
-    color: #232222;
+    color: #fff;
 }
 
 th, td {
@@ -38,6 +38,18 @@ ul, ol {
     padding: 0;
 }
 
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 22.5px;
+}
+
+p {
+    font-size: 17px;
+}
+
 /* header and navigation links */
 
 .logo {
@@ -46,6 +58,7 @@ ul, ol {
     margin-left: 20px;
     font-size: 275%;
     letter-spacing: 1px;
+    color: #232222;
 }
 
 .header-container {
@@ -76,7 +89,7 @@ ul, ol {
   }
 
 nav .navbar-nav li a {
-      color: inherit !important;
+      color: #232222 !important;
   }
 
 nav .navbar-nav li a:hover {
@@ -130,19 +143,6 @@ nav .navbar-nav li a:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%)
-
-}
-
-.hero-text, .hero-text h2 {
-    color: #fff;
-}
-
-.hero-text h2 {
-    font-size: 44px;
-}
-
-.hero-text h3 {
-    font-size: 22.5px;
 }
 
 /* about section */
@@ -159,11 +159,14 @@ nav .navbar-nav li a:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .about-text {
     width: 450px;
-    height: 375px;
+    height: 300px;
     float: left;
     display: flex;
     justify-content: left;
@@ -176,13 +179,11 @@ nav .navbar-nav li a:hover {
 }
 
 .about-text h3 {
-    font-size: 36px;
     color: #78748F;
 }
 
 .about-text p {
     line-height: 1.6;
-    font-size: 17px;
     color: #232222;
 }
 
@@ -221,7 +222,6 @@ nav .navbar-nav li a:hover {
 }
 
 .review-container p {
-    color: #fff;
     font-style: italic;
     line-height: 1.6;
     font-size: 17px;
@@ -261,7 +261,6 @@ nav .navbar-nav li a:hover {
     padding: 2%;
     background-color:#78748F;
     margin: 75px auto;
-    color:#fff;
     text-align: center;
     display: flex;
     align-items: center;
@@ -276,17 +275,7 @@ nav .navbar-nav li a:hover {
     flex: 1;
 }
 
-.location-card i {
-    color: #fff;
-    font-size: 22.5px;
-}
-
-.location-card > h3 {
-    font-size: 22.5px;
-}
-
 .location-card > p {
-    font-size: 17px;
     padding: 5px;
 }
 
@@ -344,17 +333,11 @@ nav .navbar-nav li a:hover {
     color: #78748F;
 }
 
-.course-section h1, h2, h3, h3, h4, h5, p {
-    color:#fff;
-}
-
 .course-section h2 {
     text-align: center;
-    font-size: 35px;
 }
 
 .course-section h3 {
-    font-size: 25px;
     text-align: center;
     padding: 5%;
 }
@@ -393,7 +376,6 @@ nav .navbar-nav li a:hover {
     height: 200px;
     width: 100%;
 }
-
 
 /* media queries */
 
