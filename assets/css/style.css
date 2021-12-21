@@ -34,10 +34,6 @@ footer {
     height: 100px;
 }
 
-.nav .active {
-    color: #78748F;
-}
-
 ul, ol {
     padding: 0;
 }
@@ -70,22 +66,26 @@ ul, ol {
     letter-spacing: 1px;
   }
   
-  .nav-item {
+.nav-item {
     padding: 0 18px;
   }
   
-  .nav-link {
+.nav-link {
     font-size: 1.2rem;
     font-family: inherit;
   }
 
-  nav .navbar-nav li a {
+nav .navbar-nav li a {
       color: inherit !important;
   }
 
-  nav .navbar-nav li a:hover {
+nav .navbar-nav li a:hover {
     color: #78748F !important;
     }
+
+.nav-link.active {
+    color: #78748F !important;
+}
 
 /* hero image and text section */
 
