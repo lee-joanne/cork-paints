@@ -197,13 +197,13 @@ nav .navbar-nav li a:hover {
 /* review section */
 
 .reviews {
-    width: 100%;
     overflow: hidden;
 }
 
 .review-container {
     background: url(../images/review-photo.jpeg) no-repeat center / cover;
     width: 100%;
+    padding: 5%;
     text-align: center;
     display: inline-flex;
     align-items: center;
