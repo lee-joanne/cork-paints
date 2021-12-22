@@ -289,28 +289,7 @@ nav .navbar-nav li a:hover {
     margin: 0 auto;
 }
 
-/* footer */
-
-.social-media {
-    text-align: center;
-}
-
-.social-media > li {
-    display: inline;
-}
-
-.social-media i {
-    font-size: 175%;
-    padding: 5%;
-    margin: 1%;
-    color: #232222;
-}
-
-.social-media i:hover {
-    color: #78748F;
-}
-
-/* courses html page */
+/* courses.html page */
 
 .course-section {
     background: url(../images/courses-image.jpeg) no-repeat center / cover;
@@ -337,10 +316,6 @@ nav .navbar-nav li a:hover {
 .course-links > a:hover {
     background-color: #fff;
     color: #78748F;
-}
-
-.course-section h2 {
-    text-align: center;
 }
 
 .course-section h3 {
@@ -381,6 +356,57 @@ nav .navbar-nav li a:hover {
     margin: 0 auto 3%;
     height: 200px;
     width: 100%;
+}
+
+/* register.html page */
+
+.register {
+    position: relative;
+}
+
+.register-text {
+    width: 100%;
+    background-color: rgba(120, 116, 143);
+    padding: 15px;
+    text-align: center;
+}
+
+.register-container {
+    background: url(../images/register-image.jpeg) no-repeat center / cover;
+    width: 100%;
+    height: 850px;
+}
+
+.signup {
+    background-color: rgba(120, 116, 143, 0.7);
+    height: 65%;
+    width: 75%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+
+/* footer */
+
+.social-media {
+    text-align: center;
+}
+
+.social-media > li {
+    display: inline;
+}
+
+.social-media i {
+    font-size: 175%;
+    padding: 5%;
+    margin: 1%;
+    color: #232222;
+}
+
+.social-media i:hover {
+    color: #78748F;
 }
 
 /* media queries */
