@@ -65,10 +65,40 @@
           <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
             
             <label for="firstname">First Name</label>
-            <input id="firstname" type="text">
+            <input id="firstname" type="text" name="first_name" required>
+
+            <br>
 
             <label for="lastname">Last Name</label>
-            <input id="lastname" type="text">
+            <input id="lastname" type="text" name="last_name" required>
+
+            <br>
+
+            <label for="email">Email Address</label>
+            <input id="email" type="email" name="email" required>
+
+            <br>
+
+            <label for="acrylic">Acrylic</label>
+            <input id="acrylic" type="radio" name="course_type" value="acrylic" required>
+            <label for="watercolour">Watercolour</label>
+            <input id="watercolour" type="radio" name="course_type" value="watercolour" required>
+            <label for="oil">Oil</label>
+            <input id="oil" type="radio" name="course_type" value="oil" required>
+
+            <br>
+
+            <label for="beginner">Beginner</label>
+            <input id="beginner" type="radio" name="skill_level" value="beginner" required>
+            <label for="Intermediate">Intermediate</label>
+            <input id="intermediate" type="radio" name="skill_level" value="intermediate" required>
+            <label for="advanced">Advanced</label>
+            <input id="advanced" type="radio" name="skill_level" value="advanced" required>
+            
+            <br>
+
+            <input type="submit" value="Sign me up!">
+
 
           </form>
         </div>
