@@ -139,6 +139,7 @@ nav .navbar-nav li a:hover {
     background-color: rgba(120, 116, 143, 0.7);
     text-align: center;
     padding: 50px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 
     position: absolute;
     top: 50%;
@@ -237,6 +238,7 @@ nav .navbar-nav li a:hover {
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 .review-style > p {
@@ -272,6 +274,7 @@ nav .navbar-nav li a:hover {
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 .location-column {
@@ -311,6 +314,7 @@ nav .navbar-nav li a:hover {
     text-decoration: none;
     color: #fff;
     border-radius: 5%;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 .course-links > a:hover {
@@ -320,7 +324,7 @@ nav .navbar-nav li a:hover {
 
 .course-section h3 {
     text-align: center;
-    padding: 2%;
+    padding: 3%;
 }
 
 .courses-text {
@@ -385,7 +389,10 @@ nav .navbar-nav li a:hover {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 75px 50px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 /* footer */
