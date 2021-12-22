@@ -623,7 +623,10 @@ nav .navbar-nav li a:hover {
     .social-media i {
         padding: 10%;
         margin: 2%;
+    }
+
 }
+
 
 /* for media screens 515px wide and down */
 
@@ -717,6 +720,4 @@ nav .navbar-nav li a:hover {
     .signup input[type=text], input[type=email] {
         padding: 1px;
     }
-}
-
 }
