@@ -307,7 +307,7 @@ nav .navbar-nav li a:hover {
     margin: 25px 25px 0;
     border: 1px;
     padding: 1.5% 3%;
-    background: #78748F;
+    background:rgba(120, 116, 143, 0.9);
     text-decoration: none;
     color: #fff;
     border-radius: 5%;
@@ -320,19 +320,19 @@ nav .navbar-nav li a:hover {
 
 .course-section h3 {
     text-align: center;
-    padding: 3%;
+    padding: 2%;
 }
 
 .courses-text {
     width: 100%;
-    background-color: rgba(120, 116, 143);
+    background:rgba(120, 116, 143, 0.9);
     padding: 15px;
     text-align: center;
 }
 
 .courses-container {
     padding-top: 1%;
-    padding-bottom: 6%;
+    padding-bottom: 8%;
 }
 
 .container-style {
@@ -366,7 +366,7 @@ nav .navbar-nav li a:hover {
 
 .register-text {
     width: 100%;
-    background-color: rgba(120, 116, 143);
+    background:rgba(120, 116, 143, 0.9);
     padding: 15px;
     text-align: center;
 }
