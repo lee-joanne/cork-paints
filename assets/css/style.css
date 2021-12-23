@@ -336,7 +336,7 @@ nav .navbar-nav li a:hover {
 
 .courses-container {
     padding-top: 1%;
-    padding-bottom: 8%;
+    padding-bottom: 4%;
 }
 
 .container-style {
@@ -623,6 +623,7 @@ nav .navbar-nav li a:hover {
 
     .social-media i {
         margin: 2%;
+        padding: 5% 7%;
     }
 
 }
