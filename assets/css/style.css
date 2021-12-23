@@ -136,7 +136,7 @@ nav .navbar-nav li a:hover {
  
     width: 75%;
 
-    background-color: rgba(120, 116, 143, 0.7);
+    background-color: rgba(120, 116, 143, 0.8);
     text-align: center;
     padding: 50px;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
@@ -229,7 +229,7 @@ nav .navbar-nav li a:hover {
 }
 
 .review-style {
-    background-color:rgba(120, 116, 143, 0.7);
+    background-color:rgba(120, 116, 143, 0.8);
     height: 400px;
     width: 33%;
     padding: 35px;
@@ -346,7 +346,7 @@ nav .navbar-nav li a:hover {
 }
 
 .course-card {
-    background-color: rgba(120, 116, 143, 0.7);
+    background-color: rgba(120, 116, 143, 0.8);
     height: 475px;
     width: 375px;
     margin: 20px;
@@ -379,7 +379,7 @@ nav .navbar-nav li a:hover {
 
 .signup input[type=text], input[type=email], .signup select {
     width: 100%;
-    padding: 10px 15px;
+    padding: 6px 15px;
     margin: 10px 0;
 }
 
@@ -391,7 +391,7 @@ nav .navbar-nav li a:hover {
 }
 
 .submit:hover {
-    background-color: rgba(120, 116, 143, 0.7);
+    background-color: rgba(120, 116, 143, 0.8);
     color: #fff;
 }
 
@@ -413,7 +413,7 @@ nav .navbar-nav li a:hover {
 }
 
 .signup {
-    background-color: rgba(120, 116, 143, 0.7);
+    background-color: rgba(120, 116, 143, 0.8);
     width: 50%;
     margin-top: 25px;
     position: absolute;
@@ -436,7 +436,7 @@ nav .navbar-nav li a:hover {
 
 .social-media i {
     font-size: 175%;
-    padding: 5%;
+    padding: 3% 7%;
     margin: 1%;
     color: #232222;
 }
@@ -483,6 +483,7 @@ nav .navbar-nav li a:hover {
         width: 75%;
         height: auto;
         margin-top: 5%;
+        text-align: justify;
     }
 
     .about-text h3 {
@@ -524,7 +525,7 @@ nav .navbar-nav li a:hover {
     }
 
     .signup input[type=text], input[type=email], .signup select {
-        padding: 5px 8px;
+        padding: 5px 10px;
     }
 
     .signup {
@@ -621,7 +622,6 @@ nav .navbar-nav li a:hover {
 /* footer */
 
     .social-media i {
-        padding: 10%;
         margin: 2%;
     }
 
