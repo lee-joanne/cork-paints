@@ -199,11 +199,11 @@ nav .navbar-nav li a:hover {
 
 .reviews {
     overflow: hidden;
+    background: url(../images/review-photo.jpeg) no-repeat center / cover;
+    width: 100%;
 }
 
 .review-container {
-    background: url(../images/review-photo.jpeg) no-repeat center / cover;
-    width: 100%;
     padding: 5%;
     text-align: center;
     display: inline-flex;
@@ -562,7 +562,7 @@ nav .navbar-nav li a:hover {
 
 /* hero image and text section */
     .hero-image {
-        background: url(../images/hero-image.jpeg) no-repeat contain;
+        background: url(../images/hero-image.jpeg) no-repeat;
     }
 
 /* about section */
@@ -605,7 +605,7 @@ nav .navbar-nav li a:hover {
     }
 
     .course-section {
-        background: url(../images/courses-image.jpeg) repeat contain;
+        background: url(../images/courses-image.jpeg) repeat;
         width: 100%;
     }
 
