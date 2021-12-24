@@ -201,7 +201,7 @@ nav .navbar-nav li a:hover {
 }
 
 .reviewtext-container {
-    margin: 75px auto 0;
+    margin: 50px auto 0;
     text-align: center;
     padding: 1.5% 2.5%;
     width: 40%;
@@ -214,10 +214,10 @@ nav .navbar-nav li a:hover {
 }
 
 .review-container {
-    padding: 45px 5% 5%;
+    padding: 30px 5% 5%;
     text-align: center;
-    display: inline-flex;
     align-items: center;
+    display: flex;
     align-content: center;
 }
 
@@ -457,6 +457,14 @@ nav .navbar-nav li a:hover {
 
 /* media queries */
 
+/* for media screens 1500px wide and up */
+
+@media screen and (min-width: 1500px) {
+    .signup {
+        width: 45%;
+    }
+}
+
 /* for media screens 1245px wide and down */
 
 @media screen and (max-width: 1245px) {
@@ -534,6 +542,14 @@ nav .navbar-nav li a:hover {
 
     .reviewtext-container {
         width: 50%;
+    }
+
+    .reviewtext-container {
+        margin-top: 45px;
+    }
+    
+    .review-container {
+        padding-top: 25px;
     }
 
 }
