@@ -133,14 +133,11 @@ nav .navbar-nav li a:hover {
 }
 
 .hero-text {
- 
     width: 75%;
-
     background-color: rgba(120, 116, 143, 0.8);
     text-align: center;
     padding: 50px;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-
     position: absolute;
     top: 50%;
     left: 50%;
@@ -203,8 +200,21 @@ nav .navbar-nav li a:hover {
     width: 100%;
 }
 
+.reviewtext-container {
+    margin: 75px auto 0;
+    text-align: center;
+    padding: 1.5% 2.5%;
+    width: 40%;
+    background-color: rgba(120, 116, 143, 0.8);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.reviewtext-container > h3 {
+    margin: 0;
+}
+
 .review-container {
-    padding: 5%;
+    padding: 45px 5% 5%;
     text-align: center;
     display: inline-flex;
     align-items: center;
@@ -509,10 +519,21 @@ nav .navbar-nav li a:hover {
         margin: 5% 1%;
     }
 
+    .reviewtext-container {
+        width: 50%;
+    }
+
 }
 
 /* for media screens 900px wide and down */
 @media screen and (max-width: 900px) {
+
+/* review section */
+
+    .reviewtext-container {
+        width: 70%;
+        padding: 2.5% 3.5%;
+    }
 
 /* register.html page */
 
@@ -562,7 +583,7 @@ nav .navbar-nav li a:hover {
 
 /* hero image and text section */
     .hero-image {
-        background: url(../images/hero-image.jpeg) no-repeat;
+        background: url(../images/hero-image.jpeg) no-repeat contain;
     }
 
 /* about section */
@@ -605,7 +626,7 @@ nav .navbar-nav li a:hover {
     }
 
     .course-section {
-        background: url(../images/courses-image.jpeg) repeat;
+        background: url(../images/courses-image.jpeg) repeat contain;
         width: 100%;
     }
 
