@@ -1,4 +1,4 @@
-# <p align="center">Cork Paints Website</p>
+# Cork Paints Website
 
 [View Live Project Here](https://lee-joanne.github.io/cork-paints/)
 
