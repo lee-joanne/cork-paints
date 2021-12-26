@@ -8,7 +8,7 @@
     border: none;
 }
 
-/* body and heading text */
+/* main body */
 
 body {
     font-family: Lora, sans-serif;
@@ -102,7 +102,7 @@ nav .navbar-nav li a:hover {
     color: #78748F !important;
 }
 
-/* hero image and text section */
+/* index.html: hero image and hero text section */
 
 .hero {
     height: 650px;
@@ -145,7 +145,7 @@ nav .navbar-nav li a:hover {
     transform: translate(-50%, -50%)
 }
 
-/* about section */
+/* index.html: about section */
 
 .about {
     height: 650px;
@@ -193,7 +193,7 @@ nav .navbar-nav li a:hover {
     border-radius: 50%;
 }
 
-/* review section */
+/* index.html: review section */
 
 .reviews {
     overflow: hidden;
@@ -269,7 +269,7 @@ nav .navbar-nav li a:hover {
     object-fit: cover;
 }
 
-/* location */
+/* index.html: location */
 
 .location {
     width: 100%;
@@ -465,6 +465,9 @@ nav .navbar-nav li a:hover {
 /* for media screens 1500px wide and up */
 
 @media screen and (min-width: 1500px) {
+
+/* signup.html page */
+
     .signup {
         width: 45%;
     }
@@ -499,7 +502,7 @@ nav .navbar-nav li a:hover {
         font-size: 16px;
     }
 
-/* hero image and hero text */
+/* index:html: hero image and hero text */
 
     .hero {
         height: 450px;
@@ -509,7 +512,7 @@ nav .navbar-nav li a:hover {
         padding: 25px;
     }
 
-/* about section */
+/* index.html: about section */
 
     .about {
         height: 500px;
@@ -538,7 +541,7 @@ nav .navbar-nav li a:hover {
         flex-wrap: wrap;
     }
 
-/* review section */
+/* index.html: review section */
 
     .review-style {
         padding: 20px;
@@ -562,7 +565,7 @@ nav .navbar-nav li a:hover {
 /* for media screens 900px wide and down */
 @media screen and (max-width: 900px) {
 
-/* review section */
+/* index.html: review section */
 
     .reviewtext-container {
         width: 70%;
@@ -615,7 +618,7 @@ nav .navbar-nav li a:hover {
         font-size: 200%;
     }
 
-/* about section */
+/* index.html: about section */
 
     .about {
         height: 400px;
@@ -627,7 +630,7 @@ nav .navbar-nav li a:hover {
         width: 100px;
     }
 
-/* review section */
+/* index.html: review section */
 
     .review-container {
         display: flex;
@@ -701,7 +704,7 @@ nav .navbar-nav li a:hover {
         font-size: 12px;
     }
 
-/* location */
+/* index.html: location */
 
     .location-card {
         display: flex;
@@ -748,7 +751,7 @@ nav .navbar-nav li a:hover {
         font-size: 100%;
     }
 
-/* about section */
+/* index.html: about section */
     .about {
         margin: 100px 0;
     }
