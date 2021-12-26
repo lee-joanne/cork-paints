@@ -52,7 +52,7 @@ p {
     font-size: 17px;
 }
 
-/* header and navigation links */
+/* header and navigation bar */
 
 .logo {
     text-transform: uppercase;
@@ -102,27 +102,25 @@ nav .navbar-nav li a:hover {
     color: #78748F !important;
 }
 
-/* index.html: hero image and hero text section */
+/* index.html: landing page */
 
-.hero {
+.landing-page {
     height: 650px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
-.hero-image {
-    background: url(../images/hero-image.jpeg) no-repeat 20% 60% / cover;
-
+.landing-page-image {
+    background: url(../images/landing-page-image.jpeg) no-repeat 20% 60% / cover;
     height: 650px;
     width: 100%;
-
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
 
-/* creates the level of zoom for hero image */
+/* creates the level of zoom for landing page image */
 @keyframes hero-zoom {
     from {
         transform: scale(1);
@@ -133,7 +131,7 @@ nav .navbar-nav li a:hover {
     }
 }
 
-.hero-text {
+.landing-page-text {
     width: 75%;
     background-color: rgba(120, 116, 143, 0.8);
     text-align: center;
@@ -193,15 +191,15 @@ nav .navbar-nav li a:hover {
     border-radius: 50%;
 }
 
-/* index.html: review section */
+/* index.html: testimonial section */
 
-.reviews {
+.testimonial {
     overflow: hidden;
     background: url(../images/review-photo.jpeg) no-repeat center / cover;
     width: 100%;
 }
 
-.reviewtext-container {
+.testimonial-text-container {
     margin: 50px auto 0;
     text-align: center;
     padding: 1.5% 2.5%;
@@ -210,11 +208,11 @@ nav .navbar-nav li a:hover {
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
-.reviewtext-container > h3 {
+.testimonial-text-container > h3 {
     margin: 0;
 }
 
-.review-container {
+.testimonial-container {
     padding: 30px 5% 5%;
     text-align: center;
     align-items: center;
@@ -222,24 +220,24 @@ nav .navbar-nav li a:hover {
     align-content: center;
 }
 
-.review-one {
+.testimonial-one {
     float: left;
 }
 
-.review-two {
+.testimonial-two {
     margin: 0 auto;
 }
 
-.review-three {
+.testimonial-three {
     float: right;
 }
 
-.review-container p {
+.testimonial-container p {
     font-style: italic;
     line-height: 1.6;
 }
 
-.review-style {
+.testimonial-style {
     background-color:rgba(120, 116, 143, 0.8);
     height: 400px;
     width: 33%;
@@ -252,17 +250,17 @@ nav .navbar-nav li a:hover {
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
-.review-style > p {
+.testimonial-style > p {
     padding-top: 15px;
     margin-bottom: 0;
     text-align: left;
 }
 
-.review-container i {
+.testimonial-container i {
     color: gold;
 }
 
-.customer-heads {
+.learner-heads {
     height: 75px;
     width: 75px;
     border-radius: 50%;
@@ -305,6 +303,27 @@ nav .navbar-nav li a:hover {
 
 .location-card h3 {
     color: white;
+}
+
+/* footer */
+
+.social-media {
+    text-align: center;
+}
+
+.social-media > li {
+    display: inline;
+}
+
+.social-media i {
+    font-size: 175%;
+    padding: 3% 7%;
+    margin: 1%;
+    color: #232222;
+}
+
+.social-media i:hover {
+    color: #78748F;
 }
 
 /* courses.html page */
@@ -439,27 +458,6 @@ nav .navbar-nav li a:hover {
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
-/* footer */
-
-.social-media {
-    text-align: center;
-}
-
-.social-media > li {
-    display: inline;
-}
-
-.social-media i {
-    font-size: 175%;
-    padding: 3% 7%;
-    margin: 1%;
-    color: #232222;
-}
-
-.social-media i:hover {
-    color: #78748F;
-}
-
 /* media queries */
 
 /* for media screens 1500px wide and up */
@@ -502,13 +500,13 @@ nav .navbar-nav li a:hover {
         font-size: 16px;
     }
 
-/* index:html: hero image and hero text */
+/* index:html: landing page */
 
-    .hero {
+    .landing-page {
         height: 450px;
     }
 
-    .hero-text {
+    .landing-page-text {
         padding: 25px;
     }
 
@@ -541,33 +539,31 @@ nav .navbar-nav li a:hover {
         flex-wrap: wrap;
     }
 
-/* index.html: review section */
+/* index.html: testimonial section */
 
-    .review-style {
+    .testimonial-style {
         padding: 20px;
         margin: 5% 1%;
     }
 
-    .reviewtext-container {
+    .testimonial-text-container {
         width: 50%;
-    }
-
-    .reviewtext-container {
         margin-top: 45px;
     }
     
-    .review-container {
+    .testimonial-container {
         padding-top: 25px;
     }
 
 }
 
 /* for media screens 900px wide and down */
+
 @media screen and (max-width: 900px) {
 
-/* index.html: review section */
+/* index.html: testimonial section */
 
-    .reviewtext-container {
+    .testimonial-text-container {
         width: 70%;
         padding: 2.5% 3.5%;
     }
@@ -630,20 +626,27 @@ nav .navbar-nav li a:hover {
         width: 100px;
     }
 
-/* index.html: review section */
+/* index.html: testimonial section */
 
-    .review-container {
+    .testimonial-container {
         display: flex;
         justify-content: flex-start;
         flex-wrap: wrap;
     }
 
-    .review-style {
+    .testimonial-style {
         width: var(--reviewsWidth);
         height: var(--reviewsHeight);
         margin: var(--reviewsMargin);
         box-sizing: border-box;
         margin: 2%;
+    }
+
+/* footer */
+
+    .social-media i {
+        margin: 2%;
+        padding: 5% 7%;
     }
 
 /* courses.html page */
@@ -667,15 +670,7 @@ nav .navbar-nav li a:hover {
         padding: 4% 7%;
     }
 
-/* footer */
-
-    .social-media i {
-        margin: 2%;
-        padding: 5% 7%;
-    }
-
 }
-
 
 /* for media screens 515px wide and down */
 
