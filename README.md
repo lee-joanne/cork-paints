@@ -4,9 +4,9 @@
 
 Cork Paints is a low-cost painting workshop for all different skill levels in Cork City, Ireland. The website is targeted towards people who are interested in painting and looking to attend in-class sessions on evenings or weekends. Cork Paints is useful for anyone who is interested in painting as they accomodate beginniners or expert paints in acrylic, watercolour, or oil for children, teenagers, or adults. 
 
-![Screenshot of Cork Paints on Am I Responsive](assets/images/amiresponsive1-image.png)
-![Screenshot of Cork Paints on Am I Responsive](assets/images/amiresponsive2-image.png)
-![Screenshot of Cork Paints on Am I Responsive](assets/images/amiresponsive3-image.png)
+![Screenshot of Cork Paints on Am I Responsive](assets/documentation/images/amiresponsive1-image.png)
+![Screenshot of Cork Paints on Am I Responsive](assets/documentation/images/amiresponsive2-image.png)
+![Screenshot of Cork Paints on Am I Responsive](assets/documentation/images/amiresponsive3-image.png)
 
 ## User Experience (UX)
 
@@ -37,14 +37,17 @@ Cork Paints is a low-cost painting workshop for all different skill levels in Co
 * ### Wireframes
   - Wireframes have been created using the program Sketch.
 
-    - Desktop Wireframe - [View](assets/wireframes/Desktop.png) 
+    - Desktop Wireframe - [View](assets/documentation/wireframes/desktop-wireframe.png) 
 
-    - Mobile Wireframe - [View](assets/wireframes/Mobile.png)
+    - Mobile Wireframe - [View](assets/documentation/wireframes/mobile-wireframe.png)
 
-    - Tablet Wireframe - [View](assets/wireframes/Tablet.png) 
+    - Tablet Wireframe - [View](assets/documentation/wireframes/tablet-wireframe.png) 
 
 
 ## Features
 
 * ### Existing Features
+
+  - Navigation Bar
+    - 
 
