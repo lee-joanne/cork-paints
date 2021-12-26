@@ -24,6 +24,7 @@ th, td {
     padding: 5px 25px;
     text-align: center;
     font-size: 17px;
+    color: white;
 }
 
 iframe {
@@ -300,6 +301,10 @@ nav .navbar-nav li a:hover {
 
 .table-card {
     margin: 0 auto;
+}
+
+.location-card h3 {
+    color: white;
 }
 
 /* courses.html page */
