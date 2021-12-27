@@ -211,6 +211,19 @@ The website was also tested on Lighthouse to test accessibility. When tested, al
   - The website has been tested on many different browsers including Chrome, Safari, and Firefox. Large monitors, laptops, tablets, and devices such as the iPhone 13 Mini, iPhone 11, and Xiaomi Mi Note 10 have been used to check the quality of the website. 
   - Using Chrome DevTools, I have tested all of the pages on multiple different device screens to check the responsiveness of all the pages. 
 
+## Deployment
+
+The website was deployed using GitHub Pages. The following steps were taken for the deployment process:
+
+  1. Log in to [GitHub](https://github.com/).
+  2. Click on the profile icon to locate 'Your repositories'. 
+  3. On the repository page, click on the repository you wish to deploy.
+  4. At the top of the repository, locate the 'Settings' link and click.
+  5. On the Settings page, locate the 'Pages' section in the left-hand navigation section and click.
+  6. On the GitHub Pages page, under 'Source' click "Main". Click 'Save'.
+  7. Refresh the page and the live link is ready. 
+
+
 
 
 
