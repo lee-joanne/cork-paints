@@ -132,6 +132,84 @@ Cork Paints is a low-cost painting workshop for all different skill levels in Co
     ![Screenshot of courses page middle](assets/documentation/images/course-page-two.png)
     ![Screenshot of courses page bottom](assets/documentation/images/course-page-three.png)
 
+  - Register 
+
+    - The register page contains a header at the top to encourage users to register for Cork Paints. The page then contains a form where users will be able to sign up for their desired course. Users are able to input their first name, last name, and email address in the text boxes. There are two dropdown menus where users can select which skill level they wish to sign up with and the desired course.
+    - The bottom of the form contains a submit button that changes to purple when hovered over to assure the user that the button is clickable. 
+
+    ![Screenshot of courses page top](assets/documentation/images/signup-page.png)
+
+  * ### Features Left to Implement
+
+  - In the future, I would like to create a form where users can register for a newsletter subscription to stay intuned with updates and events.
+
+  - I would like to create a gallery section with various types of painting made by learners in the past to inspire first time users to come and see what they are capable of learning. As well, for frequent users to come see their artwork displayed on the website.
+
+  - I would also like to create a sign up section for learners to volunteer to be a teacher at the workshop, since the teachers are volunteers. This feature will be of great use for frequent users of the website who has gained enough skills to feel confident enough to teach lessons.
+
+## Technologies Used
+
+* ### Languages Used
+
+  - [HTML5](https://en.wikipedia.org/wiki/HTML5)
+  - [CSS3](https://en.wikipedia.org/wiki/CSS)
+
+* ### Frameworks, Libraries & Programs Used
+
+  1. [Bootstrap v5.0](https://getbootstrap.com/docs/5.0/getting-started/introduction/) 
+      - Bootstrap was used for the navigation bar on all pages to make the bar responsive on smaller devices. jQuery was part of Bootstrap to make the navigation bar toggle. 
+
+  2. [Google Fonts](https://fonts.google.com/)
+      - Google Fonts was used to import the fonts Montserrat and Lora. 
+
+  3. [Font Awesome](https://fontawesome.com/) 
+      - Font Awesome was used throughout the pages for their icons to make the page look more aesthetically pleasing.
+
+  4. [Git](https://git-scm.com/)
+      - Git was used by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+
+  5. [GitHub](https://github.com/)
+      - Git was used to store the project code after being pushed in by Git. GitHub was also used to deploy the project to create a public link.
+
+  6. [Sketch](https://www.sketch.com/)
+      - Sketch was used to create low fidelity wireframes of the website to create a blueprint of the website. 
+
+  7. [Pexels](https://www.pexels.com/)
+      - Pexels was used for all images, including background images, to make the website look more appealing and eyecatching to the user.
+
+  8. [Google Maps](https://maps.google.com)
+      - Google Maps was used to embed an iFrame to insert onto the index page of the website. The map is very useful for users to understand exactly where the workshop is located. 
+
+## Testing
+
+* ### Validator Testing
+
+To thoroughly test the website, the W3C Markup Validator and W3C CSS Validation Service were used to validate all pages of the project to spot any errors in the syntax. No errors were found for all HTML pages and the CSS file.
+
+  - [W3C Markup Validator](https://validator.w3.org/)
+    - [CSS Results](assets/documentation/images/css-validator.png) 
+
+  - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+    - [Index Page Results](assets/documentation/images/index-validator.png) 
+    - [Courses Page Results](assets/documentation/images/courses-validator.png) 
+    - [Register Page Results](assets/documentation/images/register-validator.png) 
+
+* ### Accessibility Testing
+
+The website was also tested on Lighthouse to test accessibility. When tested, all three pages come up as 97% on accessibility. 
+
+  - [Index Page Results](assets/documentation/images/index-lighthouse.png)
+  - [Courses Page Results](assets/documentation/images/courses-lighthouse.png)
+  - [Register Page Results](assets/documentation/images/register-lighthouse.png)
+
+* ### Unfixed Bugs
+
+  - Using Lighthouse, performance scores are low on all of the pages. In the future, I wish to be able to bring the performance score up to at least 90% to ensure that the users will be able to open up this website at ease. This issue has been left unfixed because when convering some of the images from jpeg to webp and then compressing, the quality of the images have been lost. User experience of clear images has been prioritized for now over performance speed to ensure the website is appealing to the user.
+    
+* ### Further Testing
+
+  - The website has been tested on many different browsers including Chrome, Safari, and Firefox. Large monitors, laptops, tablets, and devices such as the iPhone 13 Mini, iPhone 11, and Xiaomi Mi Note 10 have been used to check the quality of the website. 
+  - Using Chrome DevTools, I have tested all of the pages on multiple different device screens to check the responsiveness of all the pages. 
 
 
 
