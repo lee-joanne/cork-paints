@@ -184,6 +184,12 @@ Cork Paints is a low-cost painting workshop for all different skill levels in Co
   9. [ColorZilla](https://www.colorzilla.com/)
       - ColorZilla Chrome extension was used to select the purple (#78748F) colour by using this tool on the hero image on the Index Page to identiy the main colour scheme of the website.
 
+  10. [Tinypng.com](https://tinypng.com/)
+      - Tinypng was used to compress all of my images throughout the website to make the performance speed faster.
+
+  11. [Convertio](https://convertio.co/jpeg-webp/)]
+      - Convertio was used to convert my jpeg images to webp to help decrease the size of the images.
+
 ## Testing
 
 * ### Validator Testing
