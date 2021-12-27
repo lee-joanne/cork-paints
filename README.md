@@ -135,17 +135,18 @@ Cork Paints is a low-cost painting workshop for all different skill levels in Co
   - Register 
 
     - The register page contains a header at the top to encourage users to register for Cork Paints. The page then contains a form where users will be able to sign up for their desired course. Users are able to input their first name, last name, and email address in the text boxes. There are two dropdown menus where users can select which skill level they wish to sign up with and the desired course.
+
     - The bottom of the form contains a submit button that changes to purple when hovered over to assure the user that the button is clickable. 
 
     ![Screenshot of courses page top](assets/documentation/images/signup-page.png)
 
   * ### Features Left to Implement
 
-  - In the future, I would like to create a form where users can register for a newsletter subscription to stay intuned with updates and events.
+    - In the future, I would like to create a form where users can register for a newsletter subscription to stay intuned with updates and events.
 
-  - I would like to create a gallery section with various types of painting made by learners in the past to inspire first time users to come and see what they are capable of learning. As well, for frequent users to come see their artwork displayed on the website.
+    - I would like to create a gallery section with various types of painting made by learners in the past to inspire first time users to come and see what they are capable of learning. As well, for frequent users to come see their artwork displayed on the website.
 
-  - I would also like to create a sign up section for learners to volunteer to be a teacher at the workshop, since the teachers are volunteers. This feature will be of great use for frequent users of the website who has gained enough skills to feel confident enough to teach lessons.
+    - I would also like to create a sign up section for learners to volunteer to be a teacher at the workshop, since the teachers are volunteers. This feature will be of great use for frequent users of the website who has gained enough skills to feel confident enough to teach lessons.
 
 ## Technologies Used
 
@@ -172,13 +173,16 @@ Cork Paints is a low-cost painting workshop for all different skill levels in Co
       - Git was used to store the project code after being pushed in by Git. GitHub was also used to deploy the project to create a public link.
 
   6. [Sketch](https://www.sketch.com/)
-      - Sketch was used to create low fidelity wireframes of the website to create a blueprint of the website. 
+      - Sketch was used to create low fidelity wireframes of the website.
 
   7. [Pexels](https://www.pexels.com/)
       - Pexels was used for all images, including background images, to make the website look more appealing and eyecatching to the user.
 
   8. [Google Maps](https://maps.google.com)
       - Google Maps was used to embed an iFrame to insert onto the index page of the website. The map is very useful for users to understand exactly where the workshop is located. 
+  
+  9. [ColorZilla](https://www.colorzilla.com/)
+      - ColorZilla Chrome extension was used to select the purple (#78748F) colour by using this tool on the hero image on the Index Page to identiy the main colour scheme of the website.
 
 ## Testing
 
@@ -187,12 +191,12 @@ Cork Paints is a low-cost painting workshop for all different skill levels in Co
 To thoroughly test the website, the W3C Markup Validator and W3C CSS Validation Service were used to validate all pages of the project to spot any errors in the syntax. No errors were found for all HTML pages and the CSS file.
 
   - [W3C Markup Validator](https://validator.w3.org/)
-    - [CSS Results](assets/documentation/images/css-validator.png) 
-
-  - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
     - [Index Page Results](assets/documentation/images/index-validator.png) 
     - [Courses Page Results](assets/documentation/images/courses-validator.png) 
     - [Register Page Results](assets/documentation/images/register-validator.png) 
+
+  - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+    - [CSS Results](assets/documentation/images/css-validator.png) 
 
 * ### Accessibility Testing
 
@@ -214,7 +218,7 @@ The website was also tested on Lighthouse to test accessibility. When tested, al
     - The navigation bar installed by Bootstrap v5.0 was very difficult to overcome. After adding the Bootstrap CSS stylesheet and script, the navigation bar refused to toggle when it became a hamburger icon. After researching on Stack Overflow and asking queries on Slack, I have asked tutor support for advice and they have helped me thoroughly. It turned out that I have added the plug-in twice by accident so I had to remove the script at the bottom. The navigation bar as well was left-aligned when I wanted it to be right-aligned. With help from tutor support, I was able to add 'ms-auto' as a class to the navigation bar for the navigation bar to be right-aligned.
     - The course cards on the courses page were not stacking centered when the viewport became smaller. It turned out that I had a div with incorrect flex display properties and I had to create another div to have flex display properties to correctly center the cards when the screen becomes smaller.
     - The background image on the courses page became very low quality when the screen size became a tablet size and smaller. To fix this, I decided to make the background image fixed when the screen is lower than 1245px so that the image would not be stretched and the webpage is still able to scroll with the fixed background.
-    - The performance score in Lighthouse for all of the pages were initially very low, scoring around 20%. In order to try to increase the score, I have taken all of the images and have compressed them used [Tinypng.com](https://tinypng.com/). I have converted the smaller images from jpeg to webp format using the online conversion tool, [Convertio](https://convertio.co/jpeg-webp/) to help reduce the size of the images. After all of this, the performance score is still low but is considerably higher than how it was initially.
+    - The performance score in Lighthouse for all of the pages were initially very low, scoring around 20%. In order to try to increase the score, I have taken all of the images and have compressed them used [Tinypng.com](https://tinypng.com/). I have converted the smaller images from jpeg to webp format using the online conversion tool, [Convertio](https://convertio.co/jpeg-webp/), to help reduce the size of the images. After all of this, the performance score is still low but is considerably higher than how it was initially.
 
 
     
@@ -236,6 +240,55 @@ The website was deployed using GitHub Pages. The following steps were taken for 
   6. On the GitHub Pages page, under 'Source' click "Main". Click 'Save'.
   7. Refresh the page and the live link is ready. 
 
+## Credits
+
+* ## Code
+
+  - Love Running: 
+    - Code from the Love Running footer was used to create the footer for Cork Paints. The social media icons, links, aria labels, and styles were used from the Love Running project. The code was also used to create the header and logo.
+    - Code from the Love Running navigation bar was used to create the unordered list elements for the navigation links.
+    - The keyframe zoom in animation on the landing page was taken from the Love Running project. 
+
+  - [Bootstrap v5.0](https://getbootstrap.com/docs/5.0/getting-started/introduction/):
+    - Bootstrap was used to create the navigation bar. The navigation bar toggles to a hamburger icon when it reaches a smaller screen with collapses to show the navigation links. 
+
+  - [CSS Scan](https://getcssscan.com/css-box-shadow-examples): 
+    - Code was taken from CSS Scan for the box shadowing around the solid purple div cards.
+
+  - [CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+    - Code was taken from this helpful guide on how to use flex display and different components of flex display.
+
+  - Code Institute Tutor Support and Slack Channel
+    - Code was taken from my helpful tutors and the Code Institute Slack channel when I have asked a query. Most queries were in regards to how to make Bootstrap navigation bars right aligned, how to collapse the navigation bar hamburger icon toggle, and how to center contents within a div. 
+
+  - [Stack Overflow](https://stackoverflow.com/): 
+    - Code from [this post](https://stackoverflow.com/questions/5703552/how-can-i-center-text-horizontally-and-vertically-inside-a-div-block) was used to center text within a div. 
+    - Code from [this post](https://stackoverflow.com/questions/48735679/bootstrap-change-navbar-link-colors) was taken to change the colour of the list elements in the Bootstrap navigation bar. 
+    - This code: 
+
+      width: var(--reviewsWidth);
+      height: var(--reviewsHeight);
+      margin: var(--reviewsMargin);
+
+      was taken from a Stack Overflow post on how to make div cards responsive on smaller screens. This code is used in the testimonial section of the index page to make the cards responsive. 
+
+* ### Content
+
+  - Majority of the structure of the website was inspired by the Love Running project. 
+  - Code Institute's course section on how to create forms was used for the sign up section on the Register Page. 
+  - Icons throughout the website are taken from [Font Awesome](https://fontawesome.com/).
+  - The structure of this README.md file was taken from the [Code Institute sample README](https://github.com/Code-Institute-Solutions/SampleREADME) and the [Love Running sample README](https://github.com/Code-Institute-Solutions/readme-template).
+
+* ### Media
+
+  - The iFrame on the Index Page is taken from [Google Maps](https://www.google.com/maps).
+  - All images throughout the webiste are taken from [Pexels](https://www.pexels.com/).
+
+* ### Acknowledgements 
+
+  - My mentor for all of his wonderful feedback and support.
+  - Everyone on the Code Institute Slack channel who took their free time to answer my queries and help me throughout my project.
+  - The Code Institute tutors who have helped me tackle Bootstrap v5.0 and flex display.
 
 
 
