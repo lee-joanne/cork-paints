@@ -205,11 +205,24 @@ The website was also tested on Lighthouse to test accessibility. When tested, al
 * ### Unfixed Bugs
 
   - Using Lighthouse, performance scores are low on all of the pages. In the future, I wish to be able to bring the performance score up to at least 90% to ensure that the users will be able to open up this website at ease. This issue has been left unfixed because when convering some of the images from jpeg to webp and then compressing, the quality of the images have been lost. User experience of clear images has been prioritized for now over performance speed to ensure the website is appealing to the user.
+  - When previewed on Google DevTools in the 'Galaxy Note' device viewport, the 'Cork Paints' logo breaks apart when the hamburger icon toggle collapses and 'Paints' moves onto the next line. When making the logo smaller using media queries, the logo becomes too small which could bring a bad user experience, especially users with visual impairment. Devices wider than the 'Galaxy Note' show the logo perfectly when the hamburger icon toggles. Since this is a slight error that only causes a minor imperfection, I have left the logo's size alone since it does not cause a detrimental user experience compared to making the logo font size smaller.  
+
+* ### Fixed Bugs
+
+  - Bugs that have been fixed along the process of building this website are:
+    - Making the testimonial cards responsive on the index page for viewports under 840px. When the screen becomes smaller than 840px, the cards will stay along one line and will be very squished, creating a very bad user experience. With thorough research on Stack Overflow, I have been able to insert variables to help the cards to stack on top of one another on smaller screens.
+    - The navigation bar installed by Bootstrap v5.0 was very difficult to overcome. After adding the Bootstrap CSS stylesheet and script, the navigation bar refused to toggle when it became a hamburger icon. After researching on Stack Overflow and asking queries on Slack, I have asked tutor support for advice and they have helped me thoroughly. It turned out that I have added the plug-in twice by accident so I had to remove the script at the bottom. The navigation bar as well was left-aligned when I wanted it to be right-aligned. With help from tutor support, I was able to add 'ms-auto' as a class to the navigation bar for the navigation bar to be right-aligned.
+    - The course cards on the courses page were not stacking centered when the viewport became smaller. It turned out that I had a div with incorrect flex display properties and I had to create another div to have flex display properties to correctly center the cards when the screen becomes smaller.
+    - The background image on the courses page became very low quality when the screen size became a tablet size and smaller. To fix this, I decided to make the background image fixed when the screen is lower than 1245px so that the image would not be stretched and the webpage is still able to scroll with the fixed background.
+    - The performance score in Lighthouse for all of the pages were initially very low, scoring around 20%. In order to try to increase the score, I have taken all of the images and have compressed them used [Tinypng.com](https://tinypng.com/). I have converted the smaller images from jpeg to webp format using the online conversion tool, [Convertio](https://convertio.co/jpeg-webp/) to help reduce the size of the images. After all of this, the performance score is still low but is considerably higher than how it was initially.
+
+
     
 * ### Further Testing
 
-  - The website has been tested on many different browsers including Chrome, Safari, and Firefox. Large monitors, laptops, tablets, and devices such as the iPhone 13 Mini, iPhone 11, and Xiaomi Mi Note 10 have been used to check the quality of the website. 
-  - Using Chrome DevTools, I have tested all of the pages on multiple different device screens to check the responsiveness of all the pages. 
+  - The website has been tested on different browsers including Chrome, Safari, and Firefox. Large monitors, laptops, tablets, and devices such as the iPhone 13 Mini, iPhone 11, and Xiaomi Mi Note 10 have been used to check the quality of the website. 
+  - Using Chrome DevTools, I have tested all of the pages on multiple different device screens to check the responsiveness of all the pages:
+    - ![Screenshot of DevTools device list](assets/documentation/images/devtools-devices.png)
 
 ## Deployment
 
