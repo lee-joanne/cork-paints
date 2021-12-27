@@ -195,7 +195,7 @@ nav .navbar-nav li a:hover {
 
 .testimonial {
     overflow: hidden;
-    background: url(../images/review-photo.jpeg) no-repeat center / cover;
+    background: url(../images/testimonial-photo.webp) no-repeat center / cover;
     width: 100%;
 }
 
