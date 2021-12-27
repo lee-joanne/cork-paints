@@ -82,7 +82,7 @@ Cork Paints is a low-cost painting workshop for all different skill levels in Co
 
   - Landing Page
 
-    - The landing page contains a large photograph of a painting on a canvas which matches the purple (#78748F) colour scheme and centered text in the middle. The text has white font and has a purple background for contrast. The landing page explains what Cork Paints is, where they are, and what they offer in very brief statements. 
+    - The landing page contains a large photograph of a painting on a canvas which matches the purple (#78748F) colour scheme and centered text in the middle. The large heading text has white font and has a purple background for contrast. The landing page explains what Cork Paints is, where they are, and what they offer in very brief statements. 
 
     - The hero image contains an eyecatching animation of zooming up to grab the user's attention.
 
@@ -90,7 +90,7 @@ Cork Paints is a low-cost painting workshop for all different skill levels in Co
 
   - About Section
 
-    - The about section contains a paragraph of text and a circular image. The h3 heading is in purple (#78748F) to match the colour scheme of the website and the text is in black to contrast the white background. The text explains who Cork Paints is to allow the users to understand who will be leading the workshops. This allows the users to feel more connected to the people behind Cork Paints.
+    - The about section contains a paragraph of text and a circular image. The h3 heading is in purple (#78748F) to match the colour scheme of the website and the text is in black to contrast the white background. The text explains who Cork Paints is to allow the users to understand who is behind Cork Paints. This allows the users to feel more connected to the people behind Cork Paints by humanizing the website. 
 
     - The circular image contains a woman's face behind a painted piece of glass to represent the volunteers of Cork Paints to enhance the aesthetics of this section.
 
@@ -99,6 +99,7 @@ Cork Paints is a low-cost painting workshop for all different skill levels in Co
   - Testimonial Section
 
     - The testimonial section contains testimonials and reviews from other learners who have attended Cork Paints. This section contains a large image of a painting as the background image. White text is displayed over purple (#78748F) cards for high readability. There are three cards for the section to be split into thirds to enhance the appeal of the section. 
+
     - The testimonial section is crucial to give the users the confidence and reassurance that Cork Paints is a reputable website and service. 
 
     ![Screenshot of testimonial section](assets/documentation/images/testimonial-section.png)
@@ -106,16 +107,24 @@ Cork Paints is a low-cost painting workshop for all different skill levels in Co
   - Location Section 
 
     - The location section contains a card highlighting Cork Paints' hours of operation, address, and telephone number for users to be informed of the hours, location, and how to get in touch. Icons are included in this section for visuals on what each part represents. 
-    - An iFrame is included in this section for the user to know exactly where Cork Paints is located. The iFrame is from Google Maps so therefore the user is able to zoom in and out of the maps and even look up the directions from their location. 
+
+    - An iFrame is included in this section for the user to know exactly where Cork Paints is located. The iFrame is from Google Maps so therefore the user is able to zoom in and out of maps and even look up the directions from their location. 
 
     ![Screenshot of location section](assets/documentation/images/location-section.png)
 
   - Footer 
 
     - The footer contains links to the social media pages of Cork Paints, including Facebook, Twitter, and Instagram. These links will open in a separate tab so the users will not be directed away from the website entirely. The icons are large to be highly accessible to the user.
+
     - When hovered, the links will become purple (#78748F) to help the user confirm which link they are about to click.
 
+    - The footer is essential to provide more ways for the user to stay connected with Cork Paints. 
+
     ![Screenshot of footer](assets/documentation/images/footer.png)
+
+  - Courses 
+
+    - 
 
 
 
