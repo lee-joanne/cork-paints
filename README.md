@@ -2,7 +2,7 @@
 
 [View Live Project Here](https://lee-joanne.github.io/cork-paints/)
 
-Cork Paints is a low-cost painting workshop for all different skill levels in Cork City, Ireland. The website is targeted towards people who are interested in learning how to paint and looking to attend in-class sessions on evenings or weekends. Cork Paints is useful for anyone who is interested in painting as they accomodate beginniners or expert paints in acrylic, watercolour, or oil for children, teenagers, or adults. 
+Cork Paints is a low-cost painting workshop for all different skill levels in Cork City, Ireland. The website is targeted towards children, teenagers, or adults who are interested in learning how to paint with acrylic, watercolour, or oil. Cork Paints offers in-class workshop sessions on evenings or weekends to suit the busy lifestyles of students and working adults. 
 
 ![Screenshot of Cork Paints index page on Am I Responsive](assets/documentation/images/amiresponsive-index.png)
 ![Screenshot of Cork Paints courses page on Am I Responsive](assets/documentation/images/amiresponsive-courses.png)
@@ -124,7 +124,13 @@ Cork Paints is a low-cost painting workshop for all different skill levels in Co
 
   - Courses 
 
-    - 
+    - The courses page will contain information on what classes Cork Paints has to offer. The top of the page will contain links to jump to the skill level section that the user is interested in, which will come in handy on tablets or mobile phones to minimize scrolling.
+
+    - The courses page consists of nine cards. The courses are organized by skill level and each skill level offers workshops in watercolour, acrylic, and oil. The cards contain information such the dates and time, price, age range, and brief descrpition of each course. The information is centered nicely and contains icons for the users to easily read the information on the cards.
+
+    ![Screenshot of courses page top](assets/documentation/images/course-page-one.png)
+    ![Screenshot of courses page middle](assets/documentation/images/course-page-two.png)
+    ![Screenshot of courses page bottom](assets/documentation/images/course-page-three.png)
 
 
 
