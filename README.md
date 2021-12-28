@@ -230,6 +230,7 @@ The website was also tested on Lighthouse to test accessibility. When tested, al
   - The website has been tested on different browsers including Chrome, Safari, and Firefox. Large monitors, laptops (MacBook Early 2016, MacBook Pro 2020), tablets (Xiaomi Tablet), and devices (iPhone 13 Mini, iPhone 11, Xiaomi Mi Note 10) have been used to check the quality of the website. 
   - Using Chrome DevTools, I have tested all of the pages on multiple different device screens to check the responsiveness of all the pages:
     - ![Screenshot of DevTools device list](assets/documentation/images/devtools-devices.png)
+  - On the register page, I have ensured that the form cannot be sent unless all necessary and required details have been filled out (first name, last name, email address, course type, and skill level).
 
 ## Deployment
 
