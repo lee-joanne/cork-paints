@@ -15,7 +15,7 @@ Cork Paints is a low-cost painting workshop for all different skill levels in Co
 
     1. As a First Time Visitor, I want to be able to easily understand what Cork Paints has to offer and how they are different from other expensive painting workshops in the city. On the landing page, I can see that Cork Paints offers low cost and affordable painting workshops for all different skill levels.
 
-    2. As a First Time Visitor, I can see exactly where Cork Paints is located in the city to know where to travel to for these in-class workshop sessions. On the landing page, I can easily see the workshops take place in Cork City and I can scroll down to see the map view of where the workshop is.
+    2. As a First Time Visitor, I want to see exactly where Cork Paints is located in the city to know where to travel to for these in-class workshop sessions. On the landing page, I can easily see the workshops take place in Cork City and I can scroll down to see the map view of where the workshop is.
 
     3. As a First Time Visitor, I want to read the review section where other learners have tried Cork Paints to be assured this service is reputable, reliable, and sufficient. On the landing page, I can scroll down and easily find and read the testimonies and reviews by other learners.
  
@@ -25,7 +25,7 @@ Cork Paints is a low-cost painting workshop for all different skill levels in Co
 
     2. As a Returning Visitor, I want to know the operating hours of Cork Paints and how I can get in touch with any query I may have. On the landing page, I can easily find this information when I scroll down and see the giant card with the operating hours and contact information.
 
-    3. As a Returning Visitor, I know exactly how to register for my next course as the registration page is very comprehensive and easy to use, thanks to the two dropdown menus to select my course and skill level. 
+    3. As a Returning Visitor, I want to know exactly how to register for my next course. The registration page is very comprehensive and easy to use, thanks to the two dropdown menus to select my course and skill level. The website will not let me submit until all information is entered, which is great to make sure I have added all the necessary details.
 
   - Frequent User Goals
 
@@ -49,11 +49,11 @@ Cork Paints is a low-cost painting workshop for all different skill levels in Co
     2. Lora
     3. Sans Serif (fallback)
 
-    - The main fonts used are Montserrat and Lora, with Sans Serif used as the fallback font. Montseratt is a sans-serif typeface used for headings throughout the website for high readability when the user is browsing the page. The eyecatching nature of the font is perfect for high level headings because the font is very eyecatching so the users will know exactly what each heading represents. Lora is a gorgeous serif font used for paragraphs and lower level headings. Lora is chosen for it's attractive typography to explain the main details of the website. 
+    - The main fonts used are Montserrat and Lora, with Sans Serif used as the fallback font. Montserat is a sans-serif typeface used for headings throughout the website for high readability when the user is browsing the page. The eyecatching nature of the font is perfect for high level headings because the font is very distinct so the users will know exactly what each heading represents. Lora is a gorgeous serif font used for paragraphs and lower level headings. Lora is chosen for it's attractive typography and high readability for lengthier paragraphs.
 
   - Imagery
 
-    - The hero image contains a gorgeous photo of a hand painting on a canvas, with colours that highly suit the colour scheme of the website. The image contains a keyframe to zoom in to catch the user's attention. The images chosen are selected to be minimalistic and artistic which suit the painting theme of Cork Paints.
+    - The hero image contains a gorgeous photo of a hand painting on a canvas, with colours that highly suit the colour scheme of the website. The hero mage contains a keyframe to zoom in to catch the user's attention. Throughout the website, all images are selected to be minimalistic and artistic which suit the painting theme of Cork Paints. All images match very well with the colour scheme of purple (#78748F), white (#fff), and black (#232222).
 
 * ### Wireframes
   - Low-fidelity wireframes have been created using the program Sketch.
@@ -70,11 +70,11 @@ Cork Paints is a low-cost painting workshop for all different skill levels in Co
 * ### Existing Features
 
   - Navigation Bar
-    - Featured on all three pages, the full navigation bar which is viewed on desktop and large devices shows the logo on the left hand side with an icon from Font Awesome which matches the colour scheme. On the right hand side, 'Home', 'Courses', and 'Register' are added to allow the user to easily direct themselves around the website. The links are consistent in text and size to allow for easy navigation.
+    - Featured on all three pages, the full navigation bar which is viewed on desktop and large devices shows the logo on the left hand side and navigation links on the right hand side. The logo contains an icon from Font Awesome which matches the colour scheme. The navigation links, 'Home', 'Courses', and 'Register', allow the user to easily direct themselves around the website. The links are consistent in text and size to allow for intuitive navigation.
 
     - The page that is currently active is coloured purple (#78748F) for the user to understand which page they are on. When the user hovers over the links, the links change to purple (#78748F) to help the user confirm which link they are about to click.
 
-    - When the device screens go smaller (tablet and mobile sizes), the navigation bar will turn into a hamburger icon. The hamburger icon is perfect for more breathing space between the navigation links and logo for the users to redirect themselves to a different page. The icon highly increases user experience as the users will not have to worry about accidentally clicking another link if the links appear too small or squished. The hamburger icon is great for intuitive navigation as users will easily recognize the hamburger icon's purpose. 
+    - When the device screens go smaller (tablet and mobile sizes), the navigation links will turn into a hamburger icon. The hamburger icon is perfect for more breathing space between the navigation links and logo when the users redirect themselves to a different page. The icon highly increases user experience as the users will not have to worry about accidentally clicking another link if the links appear too small or squished. The hamburger icon is great for intuitive navigation as users will easily recognize the hamburger icon's purpose. 
 
     ![Screenshot of navbar in desktop view](assets/documentation/images/navbar-desktop.png)
     ![Screenshot of navbar in mobile view](assets/documentation/images/navbar-mobile.png)
@@ -122,7 +122,7 @@ Cork Paints is a low-cost painting workshop for all different skill levels in Co
 
   - Courses 
 
-    - The courses page will contain information on what classes Cork Paints has to offer. The top of the page will contain links to jump to the skill level section that the user is interested in, which will come in handy on tablets or mobile phones to minimize scrolling.
+    - The courses page will contain information on what classes Cork Paints has to offer. The top of the page will contain links to jump to the skill level section that the user is interested in (beginner, intermediate, or advanced), which will come in handy on tablets or mobile phones to minimize scrolling.
 
     - The courses page consists of nine cards. The courses are organized by skill level and each skill level offers workshops in watercolour, acrylic, and oil. The cards contain information such the dates and time, price, age range, and brief descrpition of each course. The information is centered nicely and contains icons for the users to easily read the information on the cards.
 
@@ -156,7 +156,7 @@ Cork Paints is a low-cost painting workshop for all different skill levels in Co
 * ### Frameworks, Libraries & Programs Used
 
   1. [Bootstrap v5.0](https://getbootstrap.com/docs/5.0/getting-started/introduction/) 
-      - Bootstrap was used for the navigation bar on all pages to make the bar responsive on smaller devices. When the navigation bar reaches a certain size, it will turn into a hamburger icon. jQuery was part of Bootstrap to make the navigation bar toggle. 
+      - Bootstrap was used for the navigation bar on all pages to make the bar responsive on smaller devices. When the navigation bar reaches a certain size, the navigation links will turn into a hamburger icon. jQuery was part of Bootstrap to make the navigation bar toggle. 
 
   2. [Google Fonts](https://fonts.google.com/)
       - Google Fonts was used to import the fonts Montserrat and Lora. 
@@ -183,7 +183,7 @@ Cork Paints is a low-cost painting workshop for all different skill levels in Co
       - ColorZilla Chrome extension was used to select the purple (#78748F) colour by using this tool on the hero image on the index page to identiy the main colour scheme of the website.
 
   10. [Tinypng.com](https://tinypng.com/)
-      - Tinypng was used to compress all of my images throughout the website to make the performance speed faster.
+      - Tinypng was used to compress all of my images throughout the website to enhance performance speed.
 
   11. [Convertio](https://convertio.co/jpeg-webp/)]
       - Convertio was used to convert my jpeg images to webp to help decrease the size of the images.
@@ -227,7 +227,7 @@ The website was also tested on Lighthouse to test accessibility. When tested, al
     
 * ### Further Testing
 
-  - The website has been tested on different browsers including Chrome, Safari, and Firefox. Large monitors, laptops (MacBook Early 2016, MacBook Pro 2020), tablets (Xiaomi Tablet), and devices (iPhone 13 Mini, iPhone 11, Xiaomi Mi Note 10) have been used to check the quality of the website. 
+  - The website has been tested on different browsers including Chrome, Safari, and Firefox. Large monitors (LG), laptops (MacBook Early 2016, MacBook Pro 2020), tablets (Xiaomi Tablet), and devices (iPhone 13 Mini, iPhone 11, Xiaomi Mi Note 10) have been used to check the quality of the website. 
   - Using Chrome DevTools, I have tested all of the pages on multiple different device screens to check the responsiveness of all the pages:
     - ![Screenshot of DevTools device list](assets/documentation/images/devtools-devices.png)
   - On the register page, I have ensured that the form cannot be sent unless all necessary and required details have been filled out (first name, last name, email address, course type, and skill level).
