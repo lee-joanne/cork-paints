@@ -13,7 +13,7 @@ Cork Paints is a low-cost painting workshop for all different skill levels in Co
 * ### User Stories
   - First Time Visitor Goals
 
-    1. As a First Time Visitor. I want to be able to easily understand what Cork Paints has to offer and how they are different from other expensive painting workshops in the city. On the landing page, I can see that Cork Paints offers low cost and affordable painting workshops for all different skill levels.
+    1. As a First Time Visitor, I want to be able to easily understand what Cork Paints has to offer and how they are different from other expensive painting workshops in the city. On the landing page, I can see that Cork Paints offers low cost and affordable painting workshops for all different skill levels.
 
     2. As a First Time Visitor, I can see exactly where Cork Paints is located in the city to know where to travel to for these in-class workshop sessions. On the landing page, I can easily see the workshops take place in Cork City and I can scroll down to see the map view of where the workshop is.
 
