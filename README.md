@@ -2,7 +2,7 @@
 
 [View Live Project Here](https://lee-joanne.github.io/cork-paints/)
 
-Cork Paints is a low-cost painting workshop for all different skill levels in Cork City, Ireland. The website is targeted towards children, teenagers, or adults who are interested in learning how to paint with acrylic, watercolour, or oil. Cork Paints offers in-class workshop sessions on evenings or weekends to suit the busy lifestyles of students and working adults. 
+Cork Paints is a low-cost painting workshop for all different skill levels in Cork City, Ireland. The website is targeted towards children, teenagers, or adults who are interested in learning how to paint with acrylic, watercolour, or oil. Cork Paints offers in-class workshop sessions on evenings or weekends to suit the busy lifestyle of students and working adults. 
 
 ![Screenshot of Cork Paints index page on Am I Responsive](assets/documentation/images/amiresponsive-index.png)
 ![Screenshot of Cork Paints courses page on Am I Responsive](assets/documentation/images/amiresponsive-courses.png)
@@ -13,25 +13,25 @@ Cork Paints is a low-cost painting workshop for all different skill levels in Co
 * ### User Stories
   - First Time Visitor Goals
 
-    1. As a First Time Visitor. I want to be able to easily understand what Cork Paints has to offer and how they are different from other expensive painting workshops in the city. 
+    1. As a First Time Visitor. I want to be able to easily understand what Cork Paints has to offer and how they are different from other expensive painting workshops in the city. On the landing page, I can see that Cork Paints offers low cost and affordable painting workshops for all different skill levels.
 
-    2. As a First Time Visitor, I can see exactly where Cork Paints is located in the city to know where to travel to for these in-class workshop sessions. 
+    2. As a First Time Visitor, I can see exactly where Cork Paints is located in the city to know where to travel to for these in-class workshop sessions. On the landing page, I can easily see the workshops take place in Cork City and I can scroll down to see the map view of where the workshop is.
 
-    3. As a First Time Visitor, I want to read the review section where other learners have tried Cork Paints to be assured this service is reputable, reliable, and sufficient.
+    3. As a First Time Visitor, I want to read the review section where other learners have tried Cork Paints to be assured this service is reputable, reliable, and sufficient. On the landing page, I can scroll down and easily find and read the testimonies and reviews by other learners.
  
   - Returning Visitor Goals
 
-    1. As a Returning Visitor, I want to read what different courses Cork Paints has to offer, including the prices, age range, dates, and skill level.
+    1. As a Returning Visitor, I want to read what different courses Cork Paints has to offer, including the prices, age range, dates, and skill level. When I go onto the courses page, each course is carefully laid out in individual cards with all of the information present and written clearly.
 
-    2. As a Returning Visitor, I want to know the operating hours of Cork Paints and how I can get in touch with any query I may have. 
+    2. As a Returning Visitor, I want to know the operating hours of Cork Paints and how I can get in touch with any query I may have. On the landing page, I can easily find this information when I scroll down and see the giant card with the operating hours and contact information.
 
     3. As a Returning Visitor, I know exactly how to register for my next course as the registration page is very comprehensive and easy to use, thanks to the two dropdown menus to select my course and skill level. 
 
   - Frequent User Goals
 
-    1. As a Frequent User, I want to be able to find and check out their social media links to be updated with any new events or updates. 
+    1. As a Frequent User, I want to be able to find and check out their social media links to be updated with any new events or updates. I can easily find this in the footer of all of the pages.
 
-    2. As a Frequent User, I want to see other courses I can try out that is either a skill level higher than the one I have tried previously or to try out a new type of course. I can easily jump to which skill level I want to see by clicking on the links at the top on my mobile device so I can save time scrolling. 
+    2. As a Frequent User, I want to see other courses I can try out that is either a skill level higher than the one I have tried previously or to try out a new type of course. On the courses page, I can easily jump to which skill level I want to see by clicking on the links at the top on my mobile device so I can save time scrolling. 
 
 
 * ### Design
@@ -41,7 +41,7 @@ Cork Paints is a low-cost painting workshop for all different skill levels in Co
     2. White (#fff)
     3. Black (#232222)
 
-    - The main colours I have selected for this website are purple (#78748F), white (#fff), and black (#232222). For white text with the purple background, I have added 0.8 opacity to make the solid colour less harsh but also to increase readability for the user. These colours work beautifully together and white fonts are used on top of purple backgrounds and black font is used on top of white backgrounds. 
+    - The main colours I have selected for this website are purple (#78748F), white (#fff), and black (#232222). For white text with the purple background, I have added 0.8 opacity to make the solid colour less harsh but also to increase readability for the user. These colours work beautifully together and white fonts are used on top of purple backgrounds and black font is used on top of white backgrounds to enhance accessibility.  
 
   - Typography
 
@@ -56,7 +56,7 @@ Cork Paints is a low-cost painting workshop for all different skill levels in Co
     - The hero image contains a gorgeous photo of a hand painting on a canvas, with colours that highly suit the colour scheme of the website. The image contains a keyframe to zoom in to catch the user's attention. The images chosen are selected to be minimalistic and artistic which suit the painting theme of Cork Paints.
 
 * ### Wireframes
-  - Wireframes have been created using the program Sketch.
+  - Low-fidelity wireframes have been created using the program Sketch.
 
     - Desktop Wireframe - [View](assets/documentation/wireframes/desktop-wireframe.png) 
 
@@ -74,7 +74,7 @@ Cork Paints is a low-cost painting workshop for all different skill levels in Co
 
     - The page that is currently active is coloured purple (#78748F) for the user to understand which page they are on. When the user hovers over the links, the links change to purple (#78748F) to help the user confirm which link they are about to click.
 
-    - When the device screens go smaller (tablet and mobile sizes), the navigation bar will turn into a hamburger icon. The hamburger icon is perfect for more breathing space between the navigation bar and logo for the users to redirect themselves to a different page. The hamburger icon is great for intuitive navigation as users will easily recognize the hamburger icon's purpose. 
+    - When the device screens go smaller (tablet and mobile sizes), the navigation bar will turn into a hamburger icon. The hamburger icon is perfect for more breathing space between the navigation links and logo for the users to redirect themselves to a different page. The icon highly increases user experience as the users will not have to worry about accidentally clicking another link if the links appear too small or squished. The hamburger icon is great for intuitive navigation as users will easily recognize the hamburger icon's purpose. 
 
     ![Screenshot of navbar in desktop view](assets/documentation/images/navbar-desktop.png)
     ![Screenshot of navbar in mobile view](assets/documentation/images/navbar-mobile.png)
@@ -82,15 +82,13 @@ Cork Paints is a low-cost painting workshop for all different skill levels in Co
 
   - Landing Page
 
-    - The landing page contains a large photograph of a painting on a canvas which matches the purple (#78748F) colour scheme and centered text in the middle. The large heading text has white font and has a purple background for contrast. The landing page explains what Cork Paints is, where they are, and what they offer in very brief statements. 
-
-    - The hero image contains an eyecatching animation of zooming up to grab the user's attention.
+    - The landing page contains a large photograph of a painting on a canvas which matches the purple (#78748F) colour scheme and centered text in the middle. The large heading text has white font and has a purple background for contrast. The landing page explains what Cork Paints is, where they are, and what they offer in very brief statements. The objective of this hero image and text is to explain very briefly what Cork Paints is all about, to grab the user's attention, and to give a good first impression of the website. The hero image also contains an eyecatching animation of zooming up.
 
     ![Screenshot of landing page](assets/documentation/images/landingpage.png)
 
   - About Section
 
-    - The about section contains a paragraph of text and a circular image. The h3 heading is in purple (#78748F) to match the colour scheme of the website and the text is in black to contrast the white background. The text explains who Cork Paints is to allow the users to understand who is behind Cork Paints. This allows the users to feel more connected to the people behind Cork Paints by humanizing the website. 
+    - The about section contains a paragraph of text and a circular image. The h3 heading is in purple (#78748F) to match the colour scheme of the website and the text is in black to contrast the white background for high accessibility. The text explains who Cork Paints is to allow the users to understand who is behind Cork Paints. This allows the users to feel more connected to the people behind Cork Paints by humanizing the website. 
 
     - The circular image contains a woman's face behind a painted piece of glass to represent the volunteers of Cork Paints to enhance the aesthetics of this section.
 
@@ -98,7 +96,7 @@ Cork Paints is a low-cost painting workshop for all different skill levels in Co
 
   - Testimonial Section
 
-    - The testimonial section contains testimonials and reviews from other learners who have attended Cork Paints. This section contains a large image of a painting as the background image. White text is displayed over purple (#78748F) cards for high readability. There are three cards for the section to be split into thirds to enhance the appeal of the section. 
+    - The testimonial section contains testimonies and reviews from other learners who have attended Cork Paints. This section contains a large image of a painting as the background image. White text is displayed over purple (#78748F) cards for high readability. There are three cards for the section to be split into thirds to enhance the appeal of the section. 
 
     - The testimonial section is crucial to give the users the confidence and reassurance that Cork Paints is a reputable website and service. 
 
@@ -158,7 +156,7 @@ Cork Paints is a low-cost painting workshop for all different skill levels in Co
 * ### Frameworks, Libraries & Programs Used
 
   1. [Bootstrap v5.0](https://getbootstrap.com/docs/5.0/getting-started/introduction/) 
-      - Bootstrap was used for the navigation bar on all pages to make the bar responsive on smaller devices. jQuery was part of Bootstrap to make the navigation bar toggle. 
+      - Bootstrap was used for the navigation bar on all pages to make the bar responsive on smaller devices. When the navigation bar reaches a certain size, it will turn into a hamburger icon. jQuery was part of Bootstrap to make the navigation bar toggle. 
 
   2. [Google Fonts](https://fonts.google.com/)
       - Google Fonts was used to import the fonts Montserrat and Lora. 
@@ -170,19 +168,19 @@ Cork Paints is a low-cost painting workshop for all different skill levels in Co
       - Git was used by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 
   5. [GitHub](https://github.com/)
-      - Git was used to store the project code after being pushed in by Git. GitHub was also used to deploy the project to create a public link.
+      - Git was used to store the project code after being pushed in by Git. GitHub Pages was also used to deploy the project to create a public link.
 
   6. [Sketch](https://www.sketch.com/)
-      - Sketch was used to create low fidelity wireframes of the website.
+      - Sketch was used to create low-fidelity wireframes of the website.
 
   7. [Pexels](https://www.pexels.com/)
       - Pexels was used for all images, including background images, to make the website look more appealing and eyecatching to the user.
 
   8. [Google Maps](https://maps.google.com)
-      - Google Maps was used to embed an iFrame to insert onto the index page of the website. The map is very useful for users to understand exactly where the workshop is located. 
+      - Google Maps was used to embed an iFrame to insert onto the index page of the website. The map is very useful for users to understand exactly where the workshop is located and to seek directions to the workshop from their location.
   
   9. [ColorZilla](https://www.colorzilla.com/)
-      - ColorZilla Chrome extension was used to select the purple (#78748F) colour by using this tool on the hero image on the Index Page to identiy the main colour scheme of the website.
+      - ColorZilla Chrome extension was used to select the purple (#78748F) colour by using this tool on the hero image on the index page to identiy the main colour scheme of the website.
 
   10. [Tinypng.com](https://tinypng.com/)
       - Tinypng was used to compress all of my images throughout the website to make the performance speed faster.
@@ -197,25 +195,25 @@ Cork Paints is a low-cost painting workshop for all different skill levels in Co
 To thoroughly test the website, the W3C Markup Validator and W3C CSS Validation Service were used to validate all pages of the project to spot any errors in the syntax. No errors were found for all HTML pages and the CSS file.
 
   - [W3C Markup Validator](https://validator.w3.org/)
-    - [Index Page Results](assets/documentation/images/index-validator.png) 
-    - [Courses Page Results](assets/documentation/images/courses-validator.png) 
-    - [Register Page Results](assets/documentation/images/register-validator.png) 
+![Index Page Results](assets/documentation/images/index-validator.png) 
+![Courses Page Results](assets/documentation/images/courses-validator.png) 
+![Register Page Results](assets/documentation/images/register-validator.png) 
 
   - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
-    - [CSS Results](assets/documentation/images/css-validator.png) 
+![CSS Results](assets/documentation/images/css-validator.png) 
 
 * ### Accessibility Testing
 
-The website was also tested on Lighthouse to test accessibility. When tested, all three pages come up as 97% on accessibility. 
+The website was also tested on Lighthouse to test accessibility. When tested, all three pages come up as 97+ on accessibility. 
 
-  - [Index Page Results](assets/documentation/images/index-lighthouse.png)
-  - [Courses Page Results](assets/documentation/images/courses-lighthouse.png)
-  - [Register Page Results](assets/documentation/images/register-lighthouse.png)
+![Index Page Results](assets/documentation/images/index-lighthouse.png)
+![Courses Page Results](assets/documentation/images/courses-lighthouse.png)
+![Register Page Results](assets/documentation/images/register-lighthouse.png)
 
 * ### Unfixed Bugs
 
-  - Using Lighthouse, performance scores are low on all of the pages. In the future, I wish to be able to bring the performance score up to at least 90% to ensure that the users will be able to open up this website at ease. This issue has been left unfixed because when convering some of the images from jpeg to webp and then compressing, the quality of the images have been lost. User experience of clear images has been prioritized for now over performance speed to ensure the website is appealing to the user.
   - When previewed on Google DevTools in the 'Galaxy Note' device viewport, the 'Cork Paints' logo breaks apart when the hamburger icon toggle collapses and 'Paints' moves onto the next line. When making the logo smaller using media queries, the logo becomes too small which could bring a bad user experience, especially users with visual impairment. Devices wider than the 'Galaxy Note' show the logo perfectly when the hamburger icon toggles. Since this is a slight error that only causes a minor imperfection, I have left the logo's size alone since it does not cause a detrimental user experience compared to making the logo font size smaller.  
+   - When this website is previewed on iPhones, the contact telephone number of the website becomes blue which does not contrast well to the purple background. In order to fix this, meta tag would need to be in place. I have not added this since it is only a slight imperfection and the phone number still contrasts perfectly when viewed on mobile sized viewports using Google DevTools.
 
 * ### Fixed Bugs
 
@@ -224,13 +222,12 @@ The website was also tested on Lighthouse to test accessibility. When tested, al
     - The navigation bar installed by Bootstrap v5.0 was very difficult to overcome. After adding the Bootstrap CSS stylesheet and script, the navigation bar refused to toggle when it became a hamburger icon. After researching on Stack Overflow and asking queries on Slack, I have asked tutor support for advice and they have helped me thoroughly. It turned out that I have added the plug-in twice by accident so I had to remove the script at the bottom. The navigation bar as well was left-aligned when I wanted it to be right-aligned. With help from tutor support, I was able to add 'ms-auto' as a class to the navigation bar for the navigation bar to be right-aligned.
     - The course cards on the courses page were not stacking centered when the viewport became smaller. It turned out that I had a div with incorrect flex display properties and I had to create another div to have flex display properties to correctly center the cards when the screen becomes smaller.
     - The background image on the courses page became very low quality when the screen size became a tablet size and smaller. To fix this, I decided to make the background image fixed when the screen is lower than 1245px so that the image would not be stretched and the webpage is still able to scroll with the fixed background.
-    - The performance score in Lighthouse for all of the pages were initially very low, scoring around 20%. In order to try to increase the score, I have taken all of the images and have compressed them used [Tinypng.com](https://tinypng.com/). I have converted the smaller images from jpeg to webp format using the online conversion tool, [Convertio](https://convertio.co/jpeg-webp/), to help reduce the size of the images. After all of this, the performance score is still low but is considerably higher than how it was initially.
-
+    - The performance score in Lighthouse for all of the pages were initially very low, scoring around 20%. In order to try to increase the score, I have taken all of the images and have compressed them used [Tinypng.com](https://tinypng.com/). I have converted the smaller images from jpeg to webp format using the online conversion tool, [Convertio](https://convertio.co/jpeg-webp/), to help reduce the size of the images. 
 
     
 * ### Further Testing
 
-  - The website has been tested on different browsers including Chrome, Safari, and Firefox. Large monitors, laptops, tablets, and devices such as the iPhone 13 Mini, iPhone 11, and Xiaomi Mi Note 10 have been used to check the quality of the website. 
+  - The website has been tested on different browsers including Chrome, Safari, and Firefox. Large monitors, laptops (MacBook Early 2016, MacBook Pro 2020), tablets (Xiaomi Tablet), and devices (iPhone 13 Mini, iPhone 11, Xiaomi Mi Note 10) have been used to check the quality of the website. 
   - Using Chrome DevTools, I have tested all of the pages on multiple different device screens to check the responsiveness of all the pages:
     - ![Screenshot of DevTools device list](assets/documentation/images/devtools-devices.png)
 
@@ -238,13 +235,15 @@ The website was also tested on Lighthouse to test accessibility. When tested, al
 
 The website was deployed using GitHub Pages. The following steps were taken for the deployment process:
 
-  1. Log in to [GitHub](https://github.com/).
-  2. Click on the profile icon to locate 'Your repositories'. 
+  1. Log in to **[GitHub](https://github.com/)**.
+  2. Click on the profile icon to locate **Your repositories**. 
   3. On the repository page, click on the repository you wish to deploy.
-  4. At the top of the repository, locate the 'Settings' link and click.
-  5. On the Settings page, locate the 'Pages' section in the left-hand navigation section and click.
-  6. On the GitHub Pages page, under 'Source' click "Main". Click 'Save'.
+  4. At the top of the repository, locate the **Settings** link and click.
+  5. On the Settings page, locate the **Pages** section in the left-hand navigation section and click.
+  6. On the GitHub Pages page, under **Source** click **Main**. Click **Save**.
   7. Refresh the page and the live link is ready. 
+
+  [View Live Project Here](https://lee-joanne.github.io/cork-paints/)
 
 ## Credits
 
@@ -281,13 +280,13 @@ The website was deployed using GitHub Pages. The following steps were taken for 
 * ### Content
 
   - Majority of the structure of the website was inspired by the Love Running project. 
-  - Code Institute's course section on how to create forms was used for the sign up section on the Register Page. 
+  - Code Institute's course section on how to create forms was used for the sign up section on the register page. 
   - Icons throughout the website are taken from [Font Awesome](https://fontawesome.com/).
   - The structure of this README.md file was taken from the [Code Institute sample README](https://github.com/Code-Institute-Solutions/SampleREADME) and the [Love Running sample README](https://github.com/Code-Institute-Solutions/readme-template).
 
 * ### Media
 
-  - The iFrame on the Index Page is taken from [Google Maps](https://www.google.com/maps).
+  - The iFrame on the index page is taken from [Google Maps](https://www.google.com/maps).
   - All images throughout the webiste are taken from [Pexels](https://www.pexels.com/).
 
 * ### Acknowledgements 
