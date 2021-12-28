@@ -49,7 +49,7 @@ Cork Paints is a low-cost painting workshop for all different skill levels in Co
     2. Lora
     3. Sans Serif (fallback)
 
-    - The main fonts used are Montserrat and Lora, with Sans Serif used as the fallback font. Montserat is a sans-serif typeface used for headings throughout the website for high readability when the user is browsing the page. The eyecatching nature of the font is perfect for high level headings because the font is very distinct so the users will know exactly what each heading represents. Lora is a gorgeous serif font used for paragraphs and lower level headings. Lora is chosen for it's attractive typography and high readability for lengthier paragraphs.
+    - The main fonts used are Montserrat and Lora, with Sans Serif used as the fallback font. Montserrat is a sans-serif typeface used for headings throughout the website for high readability when the user is browsing the page. The eyecatching nature of the font is perfect for high level headings because the font is very distinct so the users will know exactly what each heading represents. Lora is a gorgeous serif font used for paragraphs and lower level headings. Lora is chosen for it's attractive typography and high readability for lengthier paragraphs.
 
   - Imagery
 
@@ -284,6 +284,8 @@ The website was deployed using GitHub Pages. The following steps were taken for 
   - Code Institute's course section on how to create forms was used for the sign up section on the register page. 
   - Icons throughout the website are taken from [Font Awesome](https://fontawesome.com/).
   - The structure of this README.md file was taken from the [Code Institute sample README](https://github.com/Code-Institute-Solutions/SampleREADME) and the [Love Running sample README](https://github.com/Code-Institute-Solutions/readme-template).
+  - Information on the font, Montserrat, is taken from [CTAN](https://ctan.org/pkg/montserrat?lang=en#:~:text=Montserrat%20is%20a%20geometric%20sans,neighborhood%20of%20the%20same%20name.).
+  - Information on the font, Lora, is taken from [Google Fonts](https://fonts.google.com/specimen/Lora).
 
 * ### Media
 
