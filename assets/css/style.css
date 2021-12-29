@@ -15,12 +15,14 @@ body {
     color: #fff;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: Montserrat, sans-serif;
     color: #fff;
 }
 
-th, td {
+th,
+td {
     padding: 5px 25px;
     text-align: center;
     font-size: 17px;
@@ -36,7 +38,8 @@ footer {
     height: 100px;
 }
 
-ul, ol {
+ul,
+ol {
     padding: 0;
 }
 
@@ -79,24 +82,24 @@ p {
 .navbar {
     font-size: 110%;
     letter-spacing: 1px;
-  }
-  
+}
+
 .nav-item {
     padding: 0 18px;
-  }
-  
+}
+
 .nav-link {
     font-size: 1.2rem;
     font-family: inherit;
-  }
+}
 
 nav .navbar-nav li a {
-      color: #232222 !important;
-  }
+    color: #232222 !important;
+}
 
 nav .navbar-nav li a:hover {
     color: #78748F !important;
-    }
+}
 
 .nav-link.active {
     color: #78748F !important;
@@ -208,7 +211,7 @@ nav .navbar-nav li a:hover {
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
-.testimonial-text-container > h3 {
+.testimonial-text-container>h3 {
     margin: 0;
 }
 
@@ -238,7 +241,7 @@ nav .navbar-nav li a:hover {
 }
 
 .testimonial-style {
-    background-color:rgba(120, 116, 143, 0.8);
+    background-color: rgba(120, 116, 143, 0.8);
     height: 400px;
     width: 33%;
     padding: 35px;
@@ -250,7 +253,7 @@ nav .navbar-nav li a:hover {
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
-.testimonial-style > p {
+.testimonial-style>p {
     padding-top: 15px;
     margin-bottom: 0;
     text-align: left;
@@ -276,7 +279,7 @@ nav .navbar-nav li a:hover {
 .location-card {
     width: 75%;
     padding: 2%;
-    background-color:#78748F;
+    background-color: #78748F;
     margin: 75px auto;
     text-align: center;
     display: flex;
@@ -293,7 +296,7 @@ nav .navbar-nav li a:hover {
     flex: 1;
 }
 
-.location-card > p {
+.location-card>p {
     padding: 5px;
 }
 
@@ -311,7 +314,7 @@ nav .navbar-nav li a:hover {
     text-align: center;
 }
 
-.social-media > li {
+.social-media>li {
     display: inline;
 }
 
@@ -340,18 +343,18 @@ nav .navbar-nav li a:hover {
     justify-content: center;
 }
 
-.course-links > a {
+.course-links>a {
     margin: 25px 25px 0;
     border: 1px;
     padding: 1.5% 3%;
-    background:rgba(120, 116, 143, 0.9);
+    background: rgba(120, 116, 143, 0.9);
     text-decoration: none;
     color: #fff;
     border-radius: 5%;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
-.course-links > a:hover {
+.course-links>a:hover {
     background-color: #fff;
     color: #78748F;
 }
@@ -363,7 +366,7 @@ nav .navbar-nav li a:hover {
 
 .courses-text {
     width: 100%;
-    background:rgba(120, 116, 143, 0.9);
+    background: rgba(120, 116, 143, 0.9);
     padding: 15px;
     text-align: center;
 }
@@ -403,7 +406,7 @@ nav .navbar-nav li a:hover {
     position: relative;
 }
 
-.signup > h3 {
+.signup>h3 {
     text-align: center;
 }
 
@@ -411,7 +414,9 @@ nav .navbar-nav li a:hover {
     font-size: 16px;
 }
 
-.signup input[type=text], input[type=email], .signup select {
+.signup input[type=text],
+input[type=email],
+.signup select {
     width: 100%;
     padding: 6px 15px;
     margin: 10px 0;
@@ -435,7 +440,7 @@ nav .navbar-nav li a:hover {
 
 .register-text {
     width: 100%;
-    background:rgba(120, 116, 143, 0.9);
+    background: rgba(120, 116, 143, 0.9);
     padding: 15px;
     text-align: center;
 }
@@ -464,7 +469,7 @@ nav .navbar-nav li a:hover {
 
 @media screen and (min-width: 1500px) {
 
-/* signup.html page */
+    /* signup.html page */
 
     .signup {
         width: 45%;
@@ -475,12 +480,12 @@ nav .navbar-nav li a:hover {
 
 @media screen and (max-width: 1245px) {
 
-/* courses.html page */
+    /* courses.html page */
 
     .course-section {
         background-repeat: no-repeat;
         background-attachment: fixed;
-}
+    }
 
 }
 
@@ -488,7 +493,7 @@ nav .navbar-nav li a:hover {
 
 @media screen and (max-width: 1100px) {
 
-/* main body */
+    /* main body */
 
     h3 {
         font-size: 24px;
@@ -498,11 +503,12 @@ nav .navbar-nav li a:hover {
         font-size: 16px;
     }
 
-    th, td {
+    th,
+    td {
         font-size: 16px;
     }
 
-/* index:html: landing page */
+    /* index:html: landing page */
 
     .landing-page {
         height: 450px;
@@ -512,7 +518,7 @@ nav .navbar-nav li a:hover {
         padding: 25px;
     }
 
-/* index.html: about section */
+    /* index.html: about section */
 
     .about {
         height: 500px;
@@ -541,7 +547,7 @@ nav .navbar-nav li a:hover {
         flex-wrap: wrap;
     }
 
-/* index.html: testimonial section */
+    /* index.html: testimonial section */
 
     .testimonial-style {
         padding: 20px;
@@ -552,7 +558,7 @@ nav .navbar-nav li a:hover {
         width: 50%;
         margin-top: 45px;
     }
-    
+
     .testimonial-container {
         padding-top: 25px;
     }
@@ -563,24 +569,26 @@ nav .navbar-nav li a:hover {
 
 @media screen and (max-width: 900px) {
 
-/* index.html: testimonial section */
+    /* index.html: testimonial section */
 
     .testimonial-text-container {
         width: 70%;
         padding: 2.5% 3.5%;
     }
 
-/* register.html page */
+    /* register.html page */
 
     .signup {
         width: 75%;
-    }  
-    
+    }
+
     .signup h4 {
         font-size: 24px;
     }
 
-    .signup input[type=text], input[type=email], .signup select {
+    .signup input[type=text],
+    input[type=email],
+    .signup select {
         padding: 5px 10px;
     }
 
@@ -594,7 +602,7 @@ nav .navbar-nav li a:hover {
 
 @media screen and (max-width: 840px) {
 
-/* main body */
+    /* main body */
 
     h2 {
         font-size: 28px;
@@ -607,18 +615,19 @@ nav .navbar-nav li a:hover {
     p {
         font-size: 14px;
     }
-    
-    th, td {
+
+    th,
+    td {
         font-size: 14px;
     }
 
-/* header and navigation links */
+    /* header and navigation links */
 
     .logo {
         font-size: 200%;
     }
 
-/* index.html: about section */
+    /* index.html: about section */
 
     .about {
         height: 400px;
@@ -630,7 +639,7 @@ nav .navbar-nav li a:hover {
         width: 100px;
     }
 
-/* index.html: testimonial section */
+    /* index.html: testimonial section */
 
     .testimonial-container {
         display: flex;
@@ -646,25 +655,25 @@ nav .navbar-nav li a:hover {
         margin: 2%;
     }
 
-/* footer */
+    /* footer */
 
     .social-media i {
         margin: 2%;
         padding: 5% 7%;
     }
 
-/* courses.html page */
+    /* courses.html page */
 
     .course-links {
         flex-direction: column;
         align-items: center;
     }
 
-    .course-links > a {
+    .course-links>a {
         width: 40%;
     }
 
-/* register.html page */
+    /* register.html page */
 
     .register-container {
         height: 700px;
@@ -680,7 +689,7 @@ nav .navbar-nav li a:hover {
 
 @media screen and (max-width: 515px) {
 
-/* main body */
+    /* main body */
 
     h2 {
         font-size: 24px;
@@ -694,18 +703,19 @@ nav .navbar-nav li a:hover {
         font-size: 16px;
     }
 
-/* header and navigation links */
+    /* header and navigation links */
 
     .logo {
         font-size: 120%;
         margin: auto auto auto 7px;
     }
 
-    .navbar-nav, .nav-link {
+    .navbar-nav,
+    .nav-link {
         font-size: 12px;
     }
 
-/* index.html: location */
+    /* index.html: location */
 
     .location-card {
         display: flex;
@@ -714,7 +724,7 @@ nav .navbar-nav li a:hover {
         padding-top: 4%;
     }
 
-/* courses.html page */
+    /* courses.html page */
 
     .course-card {
         height: 450px;
@@ -724,17 +734,17 @@ nav .navbar-nav li a:hover {
         padding-top: 15%;
     }
 
-    .course-links > a {
+    .course-links>a {
         width: 50%;
         padding: 4%;
         margin: 20px auto 0;
     }
 
-/* register.html page */
-    
+    /* register.html page */
+
     .signup {
         padding: 45px 45px;
-}
+    }
 
 }
 
@@ -742,35 +752,37 @@ nav .navbar-nav li a:hover {
 
 @media screen and (max-width: 375px) {
 
-/* main body */
+    /* main body */
 
     h3 {
         font-size: 16px;
-}
+    }
 
-/* header and navigation links */
+    /* header and navigation links */
 
     .logo {
         font-size: 100%;
     }
 
-/* index.html: about section */
+    /* index.html: about section */
 
     .about {
         margin: 100px 0;
     }
 
-    .location-card > p {
+    .location-card>p {
         font-size: 11px;
     }
 
-/* register.html page */
-    
-    .signup select, .submit {
+    /* register.html page */
+
+    .signup select,
+    .submit {
         font-size: 12px;
     }
 
-    .signup input[type=text], input[type=email] {
+    .signup input[type=text],
+    input[type=email] {
         padding: 1px;
     }
 }
