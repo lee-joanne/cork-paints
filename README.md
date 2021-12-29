@@ -215,6 +215,9 @@ Cork Paints is a low-cost painting workshop for all different skill levels in Co
   11. [Convertio](https://convertio.co/jpeg-webp/)
       - Convertio was used to convert my jpeg images to webp to help decrease the size of the images.
 
+  12. Beautify
+      - Beautify Command Palette on Git was used to organize the code in all html and CSS files.
+
 ## Testing
 
 * ### Validator Testing
